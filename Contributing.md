@@ -12,8 +12,9 @@ Using the development branch
 To start using the *development* branch you will need to create your own fork of the repository:
 
 1. Create your own fork of the Torque 3D repository by using the **Fork** button on GitHub.
-2. Check out the *development* branch from the Git command line: `git checkout development`
-3. Add an upstream remote: `git remote add upstream https://github.com/GarageGames/Torque3D.git`
+2. Clone your Torque 3D fork to your computer.
+3. Check out the *development* branch from the Git command line: `git checkout development`
+4. Add an upstream remote: `git remote add upstream https://github.com/GarageGames/Torque3D.git`
 
 To pull changes from the GarageGames/Torque3D *development* branch into your developer fork: `git pull upstream development`
 

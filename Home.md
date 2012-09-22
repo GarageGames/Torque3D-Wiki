@@ -4,6 +4,7 @@
 
 [Documentation](wiki/Documentation)  
 [Contributing](wiki/Contributing)  
+[Blogs](wiki/Blogs)  
 
 [Beginner Forum](http://www.garagegames.com/community/forums/73)  
 [Professional Forum](http://www.garagegames.com/community/forums/63)  

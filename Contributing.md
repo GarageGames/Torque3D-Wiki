@@ -2,6 +2,7 @@ Thank-you for wanting to contribute to Torque 3D!  Please see the following for 
 
 * [Launch Blog](http://www.garagegames.com/community/blogs/view/21886)
 * [Steering Committee Draft Charter](http://www.garagegames.com/community/blogs/view/21878)
+* [First T3D MIT Committee Meeting](http://www.garagegames.com/community/blogs/view/21898)
 
 Branches
 --------

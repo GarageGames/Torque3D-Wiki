@@ -8,3 +8,5 @@
 
 [Beginner Forum](http://www.garagegames.com/community/forums/73)  
 [Professional Forum](http://www.garagegames.com/community/forums/63)  
+
+[FPS Tutorial](http://www.garagegames.com/products/torque-3d/fps) at GarageGames

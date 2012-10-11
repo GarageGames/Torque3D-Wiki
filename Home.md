@@ -6,6 +6,8 @@
 [Contributing](wiki/Contributing)  
 [Blogs](wiki/Blogs)  
 
+[Compiling Torque 3D](wiki/Compiling-Torque-3D)
+
 [Beginner Forum](http://www.garagegames.com/community/forums/73)  
 [Professional Forum](http://www.garagegames.com/community/forums/63)  
 

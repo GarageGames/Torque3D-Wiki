@@ -5,6 +5,7 @@
 [Documentation](wiki/Documentation)  
 [Contributing](wiki/Contributing)  
 [Blogs](wiki/Blogs)  
+[Feature Requests](https://garagegames.uservoice.com) at UserVoice
 
 [Compiling Torque 3D](wiki/Compiling-Torque-3D)
 

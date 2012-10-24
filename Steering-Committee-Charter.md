@@ -7,10 +7,11 @@ We are dedicated to making the best core version of Torque 3D so that others can
 To build a foundation for a sustainable environment that fosters collaboration and community development of the greatest open source development platform.
 
 ## 3. Goals  
-i. To maintain the best master branch version of Torque 3D.  Performance, reliability, maintainability and scalability.  
-ii. Act as a representative on behalf of the collective community.  
-iii. Actively communicate in a transparent manner.  
-iv. Promote Torque 3D as an open source project.  
+<ol type="i">
+<li>To maintain the best master branch version of Torque 3D.  Performance, reliability, maintainability and scalability.</li>
+<li>Act as a representative on behalf of the collective community.</li>
+<li>Actively communicate in a transparent manner.</li><li>Promote Torque 3D as an open source project.</li>
+</ol>
 
 ## 4. Duties and Responsibilities
 i. Maintain, enhance and support the Torque 3D open source product.  
@@ -28,4 +29,9 @@ Members of the steering committee must be willing and able to commit time and en
 To be considered as a member of the committee, the prospective member should meet the following criteria:  
 
 i. Is available for at least 8 to 20 hours a week of work on the Torque 3D open source product such as programming, documentation, administration, etc.  
+
+<ol type="i">
+<li>test1</li>
+<li>test2</li>
+</ol>
 

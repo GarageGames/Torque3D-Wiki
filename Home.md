@@ -3,6 +3,7 @@
 # Welcome to the Torque3D wiki!
 
 [Documentation](wiki/Documentation)  
+[Steering Committee Charter](wiki/Steering-Committee-Charter)  
 [Contributing](wiki/Contributing)  
 [Blogs](wiki/Blogs)  
 [Feature Requests](https://garagegames.uservoice.com) at UserVoice

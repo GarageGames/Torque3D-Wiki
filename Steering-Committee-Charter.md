@@ -52,3 +52,6 @@ If a committee member commits the following acts, they could be removed from the
 <li>Unable to fulfill their time requirements.</li>
 <li>Removed by a majority vote for no longer aligning with sections 3 and 4 above.</li>
 </ol>
+
+## 9. Amendments
+This charter is a living document and may be amended by the committee as outlined in section 4.  Any amendments require the approval of the committee chair.  

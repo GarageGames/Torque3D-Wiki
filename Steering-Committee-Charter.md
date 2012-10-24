@@ -34,3 +34,6 @@ To be considered as a member of the committee, the prospective member should mee
 <li>Have expert knowledge in game engine and tool development, such as documentation, C++ engine programming, operating system platform programming, etc.</li>
 <li>Agree to the Open Source Software Agreement available on the GarageGames web site.</li>
 </ol>
+If a member is unable to serve on the committee for any reason, the vacancy may be filled or left empty at the discretion of the committee.  If the committee as a whole is unable to perform its duties, an employee of GarageGames LLC or its representative may step in and provide the course of action.  
+
+In addition to the steering committee, we desire two other essential members: project manager and secretary. These roles are not decision making positions; rather, they document, format, and deliver information to the community.  

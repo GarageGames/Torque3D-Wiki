@@ -5,6 +5,8 @@ A list of GarageGames blogs on the MIT license release of Torque 3D:
 * [Open Call: Join the Torque 3D Open Source Committee (2012-09-13)](http://www.garagegames.com/community/blogs/view/21878)
 * [Torque 3D MIT FAQ (2012-09-18)](http://www.garagegames.com/community/blogs/view/21882)
 * [It's here! The MIT licensed Torque 3D GitHub repo is ready! (2012-09-20)](http://www.garagegames.com/community/blogs/view/21886)
-* [First T3D MIT Committee Meeting](http://www.garagegames.com/community/blogs/view/21898)
-
+* [First T3D MIT Committee Meeting (2012-09-24)](http://www.garagegames.com/community/blogs/view/21898)
+* [Torque 3D Open Source Update 2012-10-02](http://www.garagegames.com/community/blogs/view/21913)
+* [We want your feedback on the future of Torque 3D!](http://www.garagegames.com/community/blogs/view/21944)
+* [Torque 3D Open Source Update 2012-10-18](http://www.garagegames.com/community/blogs/view/21952)
 

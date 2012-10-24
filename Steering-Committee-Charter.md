@@ -37,3 +37,18 @@ To be considered as a member of the committee, the prospective member should mee
 If a member is unable to serve on the committee for any reason, the vacancy may be filled or left empty at the discretion of the committee.  If the committee as a whole is unable to perform its duties, an employee of GarageGames LLC or its representative may step in and provide the course of action.  
 
 In addition to the steering committee, we desire two other essential members: project manager and secretary. These roles are not decision making positions; rather, they document, format, and deliver information to the community.  
+
+## 6. Meetings
+The chair of the committee is responsible for organizing formal meetings, which should be held at least once a month.  During these meetings the progress of the previous month shall be reviewed and goals shall be set for at least the next month.  More frequent meetings may be held as required.  
+
+All meeting minutes shall be published to the community by the secretary, or another committee member if required.  These minutes must be published to the GarageGames web site, along with any other location as determined by the committee.  
+
+## 7. Voting
+Each member of the committee has one vote.  Any decision by the committee that requires a vote must have a two-thirds majority to pass.  The chair of the committee has veto power over any vote, if required.  
+
+## 8. Removal
+If a committee member commits the following acts, they could be removed from the committee:
+<ol type="i">
+<li>Unable to fulfill their time requirements.</li>
+<li>Removed by a majority vote for no longer aligning with sections 3 and 4 above.</li>
+</ol>

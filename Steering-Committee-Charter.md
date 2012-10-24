@@ -1,4 +1,4 @@
-[Version 1.0]
+<p align="right">[Version 1.0]</p>
 
 ## 1. Vision  
 We are dedicated to making the best core version of Torque 3D so that others can build upon a reliable foundation.

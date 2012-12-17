@@ -95,7 +95,7 @@ With everything in place you may now follow these steps to compile Torque 3D:
 2. Enter the `make clean` command.
 3. Enter the either the `make debug` or `make release` command depending on the type of build you wish to make.
 4. Go to your project's *game* directory.
-5. To start your game (we'll use the name *MyGame* as the example project name) enter the following command:  
+5. To start your game enter the following command (we'll use the name *MyGame* as the example project name):  
     `./MyGame -dedicated -mission "levels/Empty Terrain.mis"`  
     where the argument after the `-mission` switch is the path to the mission to load.
 

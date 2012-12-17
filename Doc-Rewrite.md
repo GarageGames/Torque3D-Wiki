@@ -40,7 +40,7 @@ PhysX SDK version 2.8.4.6 is required for Torque 3D's PhysX templates.  The foll
 
 ### Using the Project Manager to Create a Project ###
 
-The *Project Manager* may be used to create a new game project based on one of the templates that are included with Torque 3D.  If you are using Torque 3D directly from the GitHub repository then you will need to get the *Project Manager* from the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) repo.
+The *Project Manager* may be used to create a new game project based on one of the templates that are included with Torque 3D.  If you are using Torque 3D directly from the [GitHub](https://github.com/GarageGames/Torque3D) repository then you will need to get the *Project Manager* from the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) repo.
 
 The following steps use the *Project Manager* to create a new project:
 

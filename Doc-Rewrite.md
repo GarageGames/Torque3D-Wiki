@@ -27,7 +27,7 @@ The templates included with Torque 3D provide a starting point for your project.
 
 If you plan on creating a project based on a template that uses PhysX you will first need to have the PhysX SDK intalled on your computer.  Without the PhysX SDK in place the project generation step will fail when using either the *Project Manager* or manual project generation methods.
 
-PhysX SDK version 2.8.4.6 is required for Torque 3D's PhysX tempaltes.  The following steps are used to install this SDK:
+PhysX SDK version 2.8.4.6 is required for Torque 3D's PhysX templates.  The following steps are used to install this SDK:
 
 1. In a web browser, go to the [NVidia Support Center](http://supportcenteronline.com/ics/support/default.asp?deptID=1949)
 2. If you do not have an account, you will need to register with them to have the support staff create an account for you.

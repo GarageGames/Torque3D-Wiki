@@ -7,6 +7,7 @@ More Information
 ----------------
 
 * Documentation is in the [Torque3D-Documentation](https://github.com/GarageGames/Torque3D-Documentation) GitHub repo.
+* Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.
 * T3D [Beginner's Forum](http://www.garagegames.com/community/forums/73)
 * T3D [Professional Forum](http://www.garagegames.com/community/forums/63)
 * GarageGames [Store](http://www.garagegames.com/products)
@@ -15,7 +16,7 @@ More Information
 Creating a New Project Based on a Template
 ------------------------------------------
 
-The *Project Manager* may be used to create a new game project based on one of the templates that is included with Torque 3D.  If you are using Torque 3D from 
+The *Project Manager* may be used to create a new game project based on one of the templates that are included with Torque 3D.  If you are using Torque 3D directly from the GitHub repository then you will need to get the *Project Manager* from the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) repo.
 
 Compiling Torque 3D
 -------------------

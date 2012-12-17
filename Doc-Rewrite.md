@@ -1,5 +1,5 @@
-Torque3D
-========
+Torque3D v2.0
+=============
 
 MIT Licensed Open Source version of [Torque 3D](http://www.garagegames.com/products/torque-3d) from [GarageGames](http://www.garagegames.com)
 
@@ -9,11 +9,20 @@ More Information
 * Documentation is in the [Torque3D-Documentation](https://github.com/GarageGames/Torque3D-Documentation) GitHub repo.
 * T3D [Beginner's Forum](http://www.garagegames.com/community/forums/73)
 * T3D [Professional Forum](http://www.garagegames.com/community/forums/63)
+* GarageGames [Store](http://www.garagegames.com/products)
 * GarageGames [Professional Services](http://services.garagegames.com/)
 
+Creating a New Project Based on a Template
+------------------------------------------
+
+The *Project Manager* may be used to create a new game project based on one of the templates that is included with Torque 3D.  If you are using Torque 3D from 
+
 Compiling Torque 3D
+-------------------
+
 If you are going to be using a PhysX template, then you will need to complete this step. Otherwise, you can go to 2a.
-1. Install the PhysX SDK version 2.8.4.6.
+
+1. Install the PhysX SDK version 2.8.4.6.  
   * In a web browser, go to the NVidia Support Center (http://supportcenteronline.com/ics/support/default.asp?deptID=1949)
   * If you do not have an account, you will need to register with them to have the support staff create an account for you.
   * If you have an account, login.

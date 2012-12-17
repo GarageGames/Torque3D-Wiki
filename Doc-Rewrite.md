@@ -35,6 +35,14 @@ The following steps use the *Project Manager* to create a new project:
 6. When it finishes, click the *Finished* button.
 7. You may click on the *Open Folder* button to go to the project's directory.
 
+We may also manually create a project based on a template.  The following steps outline how to do this:
+
+1. Open the *Templates* directory.
+2. Right-click on the template you would like to use and choose *Copy*.
+3. Go to the *My Projects* directory and paste the template there.
+4. Rename the pasted template to the name of your project/game.
+5. Go into your project's directory and rename all executables and DLL files from the template name to that of your project (these files may not be present at this time).
+6. 
 
 
 Compiling Torque 3D

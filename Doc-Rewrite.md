@@ -91,7 +91,7 @@ Prior to compiling Torque 3D under Linux, you will need to make sure you have th
 
 With everything in place you may now follow these steps to compile Torque 3D:
 
-1. Change to you project's *buildFiles/Make_Ded" directory.
+1. Change to you project's *buildFiles/Make_Ded* directory.
 2. Enter the `make clean` command.
 3. Enter the either the `make debug` or `make release` command depending on the type of build you wish to make.
 4. Go to your project's *game* directory.

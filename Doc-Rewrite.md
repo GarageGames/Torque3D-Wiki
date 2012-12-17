@@ -18,6 +18,19 @@ Creating a New Project Based on a Template
 
 The *Project Manager* may be used to create a new game project based on one of the templates that are included with Torque 3D.  If you are using Torque 3D directly from the GitHub repository then you will need to get the *Project Manager* from the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) repo.
 
+The following steps use the *Project Manager* to create a new project:
+
+
+1. Run the *Project Manager*.
+2. Click the *New Project* button.
+3. Choose a template from the drop down on the right.
+4. Give the project a name.
+5. Click the *Create* button to create the project.  This will open a new dialog window that shows the progress.
+6. When it finishes, click the *Finished* button.
+
+
+
+
 Compiling Torque 3D
 -------------------
 

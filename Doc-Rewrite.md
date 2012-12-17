@@ -85,7 +85,7 @@ Prior to compiling Torque 3D under Linux, you will need to make sure you have th
 * build-essential
 * nasm
 * git
-* php5-clie
+* php5-cli
 * libsdl-dev
 * libogg-dev
 

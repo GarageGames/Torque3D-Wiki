@@ -20,14 +20,13 @@ The *Project Manager* may be used to create a new game project based on one of t
 
 The following steps use the *Project Manager* to create a new project:
 
-
 1. Run the *Project Manager*.
 2. Click the *New Project* button.
 3. Choose a template from the drop down on the right.
 4. Give the project a name.
 5. Click the *Create* button to create the project.  This will open a new dialog window that shows the progress.
 6. When it finishes, click the *Finished* button.
-
+7. You may click on the *Open Folder* button to go to the project's directory.
 
 
 

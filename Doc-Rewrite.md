@@ -16,6 +16,13 @@ More Information
 Creating a New Project Based on a Template
 ------------------------------------------
 
+The templates included with Torque 3D provide a starting point for your project.  Once we have created our own project based on a template we may then compile an executable and begin work on our game.  The following templates are included in this version of Torque 3D:
+
+* Empty
+* Empty PhysX
+* Full
+* Full PhysX
+
 The *Project Manager* may be used to create a new game project based on one of the templates that are included with Torque 3D.  If you are using Torque 3D directly from the GitHub repository then you will need to get the *Project Manager* from the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) repo.
 
 The following steps use the *Project Manager* to create a new project:

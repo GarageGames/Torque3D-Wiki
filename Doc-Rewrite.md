@@ -6,6 +6,7 @@ MIT Licensed Open Source version of [Torque 3D](http://www.garagegames.com/produ
 More Information
 ----------------
 
+* Torque 3D [main repository](https://github.com/GarageGames/Torque3D)
 * Documentation is in the [Torque3D-Documentation](https://github.com/GarageGames/Torque3D-Documentation) GitHub repo.
 * Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.
 * T3D [Beginner's Forum](http://www.garagegames.com/community/forums/73)

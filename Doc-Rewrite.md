@@ -11,6 +11,7 @@ More Information
 * Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.
 * T3D [Beginner's Forum](http://www.garagegames.com/community/forums/73)
 * T3D [Professional Forum](http://www.garagegames.com/community/forums/63)
+* Torque 3D [FPS Tutorial](http://www.garagegames.com/products/torque-3d/fps#/1-setup/1)
 * GarageGames [Store](http://www.garagegames.com/products)
 * GarageGames [Professional Services](http://services.garagegames.com/)
 

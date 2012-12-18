@@ -66,7 +66,7 @@ We may also manually create a project based on a template.  The following steps 
 6. Open the .torsion file in a text editor and replace all references to the template's name with that of your project (you only need to do this if you plan on using Torsion).  You will need to also do this with the .torsion.opt if it exists.
 7. Open you project's *source/torqueConfig.h* file in a text editor and change the `TORQUE_APP_NAME` define to the name of your project.
 8. In your project's *buildFiles/config* directory open each .conf file and find each reference to the template's name and replace it with the name of your project.
-9. Open your project's *game/main.cs* file in a text editor and replace all template references to the name of your project.
+9. Open your project's *game/main.cs* file in a text editor and change the `$appName` assignment to the name of your project.
 10. Go to your project's directory and double click on the *generateProjects.bat* to create your project's solution files.
 
 Compiling Torque 3D (Windows)

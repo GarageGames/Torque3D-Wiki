@@ -11,6 +11,7 @@
 ### Getting Around
 * Torque 3D [main repository](https://github.com/GarageGames/Torque3D)
 * TorqueScript and offline editor documentation is in the [Torque3D-Documentation](https://github.com/GarageGames/Torque3D-Documentation) GitHub repo.
+* Online editor and TorqueScript documentation is available on the GarageGames web site's [Torque 3D Documentation](http://www.garagegames.com/documentation/torque-3d) section.
 * Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.
 * GarageGames [Store](http://www.garagegames.com/products)
 * GarageGames [Professional Services](http://services.garagegames.com/)

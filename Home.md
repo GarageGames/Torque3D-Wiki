@@ -5,7 +5,7 @@
 ### General Information
 * [Steering Committee Charter](wiki/Steering-Committee-Charter)
 * [Contributing](wiki/Contributing)
-* [Blogs](wiki/Blogs)
+* [Blogs and Steering Committe Meeting Notes](wiki/Blogs-and-Meeting-Notes)
 * [Feature Requests](https://garagegames.uservoice.com) at UserVoice
 
 ### Getting Around

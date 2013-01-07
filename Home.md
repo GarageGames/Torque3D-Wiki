@@ -8,7 +8,7 @@
 [Blogs](wiki/Blogs)  
 [Feature Requests](https://garagegames.uservoice.com) at UserVoice
 
-[Creating a New Project Based on a Template](wiki/Creating-a-New-Project-Based-on-a-Template)
+[Creating a New Project Based on a Template](wiki/Creating-a-New-Project-Based-on-a-Template)  
 [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)
 
 [Beginner Forum](http://www.garagegames.com/community/forums/73)  

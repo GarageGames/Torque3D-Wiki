@@ -9,4 +9,7 @@ A list of GarageGames blogs on the MIT license release of Torque 3D:
 * [Torque 3D Open Source Update 2012-10-02](http://www.garagegames.com/community/blogs/view/21913)
 * [We want your feedback on the future of Torque 3D!](http://www.garagegames.com/community/blogs/view/21944)
 * [Torque 3D Open Source Update 2012-10-18](http://www.garagegames.com/community/blogs/view/21952)
-
+* [Torque 3D Open Source Update 2012-11-13](http://www.garagegames.com/community/blogs/view/22008)
+* [Torque 3D Open Source Update 2012-12-13](http://www.garagegames.com/community/blogs/view/22064)
+* [Torque 3D Open Source 2.0 Launch](http://www.garagegames.com/community/blogs/view/22074)
+* [GarageGames Starts IndieGoGo Campaign to Port Torque 3D to Linux](http://www.garagegames.com/community/blogs/view/22075)

@@ -1,12 +1,12 @@
 ![Torque Logo](http://static.garagegames.com/static/pg/logokits/Torque-Logo_H.png)
 
 # Welcome to the Torque3D wiki!
-[Steering Committee Charter](wiki/Steering-Committee-Charter)  
 
-[Documentation](wiki/Documentation)  
-[Contributing](wiki/Contributing)  
-[Blogs](wiki/Blogs)  
-[Feature Requests](https://garagegames.uservoice.com) at UserVoice
+### General Information
+* [Steering Committee Charter](wiki/Steering-Committee-Charter)
+* [Contributing](wiki/Contributing)
+* [Blogs](wiki/Blogs)
+* [Feature Requests](https://garagegames.uservoice.com) at UserVoice
 
 ### Getting Around
 * Torque 3D [main repository](https://github.com/GarageGames/Torque3D)

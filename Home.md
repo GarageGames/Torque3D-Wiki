@@ -19,7 +19,7 @@
 ### Working On Your Project
 * [Creating a New Project Based on a Template](wiki/Creating-a-New-Project-Based-on-a-Template)
 * [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)
-* [Compiling Torque 3D on Linux](wkik/Compiling-Torque-3D-on-Linux)
+* [Compiling Torque 3D on Linux](wiki/Compiling-Torque-3D-on-Linux)
 
 ### Getting Help
 * [Beginner Forum](http://www.garagegames.com/community/forums/73)

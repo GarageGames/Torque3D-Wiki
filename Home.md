@@ -16,6 +16,9 @@
 * GarageGames [Store](http://www.garagegames.com/products)
 * GarageGames [Professional Services](http://services.garagegames.com/)
 
+### Pre-compiled Version
+In addition to GitHub we also have our own ZIP package that combines the Torque3D repository with the updated TorqueScript documentation, the _Project Manager_, and compiled versions of each of the templates. This package is ideal for those that do not wish to compile Torque 3D on their own, and is available here: [Complete Torque 3D 2.0 zip package](http://mit.garagegames.com/Torque3D-2.0.zip)
+
 ### Working On Your Project
 * [Creating a New Project Based on a Template](wiki/Creating-a-New-Project-Based-on-a-Template)
 * [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)

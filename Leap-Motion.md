@@ -71,12 +71,12 @@ The following action map input events are available (all rotations are in angled
 `lm_hand1point1rot` - absolute finger 1 rotation  
 `lm_hand1point2` - absolute finger 2 position  
 `lm_hand1point2rot` - absolute finger 2 rotation  
-`lm_hand1point3` - absolute finger 2 position  
-`lm_hand1point3rot` - absolute finger 2 rotation  
-`lm_hand1point4` - absolute finger 2 position  
-`lm_hand1point4rot` - absolute finger 2 rotation  
-`lm_hand1point5` - absolute finger 2 position  
-`lm_hand1point5rot` - absolute finger 2 rotation  
+`lm_hand1point3` - absolute finger 3 position  
+`lm_hand1point3rot` - absolute finger 3 rotation  
+`lm_hand1point4` - absolute finger 4 position  
+`lm_hand1point4rot` - absolute finger 4 rotation  
+`lm_hand1point5` - absolute finger 5 position  
+`lm_hand1point5rot` - absolute finger 5 rotation  
 
 *Hand 2*  
 `lm_hand2` - absolute position  
@@ -85,10 +85,10 @@ The following action map input events are available (all rotations are in angled
 `lm_hand2point1rot` - absolute finger 1 rotation  
 `lm_hand2point2` - absolute finger 2 position  
 `lm_hand2point2rot` - absolute finger 2 rotation  
-`lm_hand2point3` - absolute finger 2 position  
-`lm_hand2point3rot` - absolute finger 2 rotation  
-`lm_hand2point4` - absolute finger 2 position  
-`lm_hand2point4rot` - absolute finger 2 rotation  
-`lm_hand2point5` - absolute finger 2 position  
-`lm_hand2point5rot` - absolute finger 2 rotation  
+`lm_hand2point3` - absolute finger 3 position  
+`lm_hand2point3rot` - absolute finger 3 rotation  
+`lm_hand2point4` - absolute finger 4 position  
+`lm_hand2point4rot` - absolute finger 4 rotation  
+`lm_hand2point5` - absolute finger 5 position  
+`lm_hand2point5rot` - absolute finger 5 rotation  
 

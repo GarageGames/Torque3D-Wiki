@@ -60,4 +60,35 @@ The new Torque 3D Leap Motion input device provides a number of input events tha
 
 ##### Hand and Finger Input Events #####
 
-Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).
+Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The default configuration is to support up to two and and five pointables per hand.  These totals may be changed in `source/platform/input/leapMotion/leapMotionConstants.h`.
+
+The following action map input events are available (all rotations are in angled axis format):
+
+*Hand 1*
+`lm_hand1` - absolute position
+`lm_hand1rot` - absolute rotation
+`lm_hand1point1` - absolute finger 1 position
+`lm_hand1point1rot` - absolute finger 1 rotation
+`lm_hand1point2` - absolute finger 2 position
+`lm_hand1point2rot` - absolute finger 2 rotation
+`lm_hand1point3` - absolute finger 2 position
+`lm_hand1point3rot` - absolute finger 2 rotation
+`lm_hand1point4` - absolute finger 2 position
+`lm_hand1point4rot` - absolute finger 2 rotation
+`lm_hand1point5` - absolute finger 2 position
+`lm_hand1point5rot` - absolute finger 2 rotation
+
+*Hand 2*
+`lm_hand2` - absolute position
+`lm_hand2rot` - absolute rotation
+`lm_hand2point1` - absolute finger 1 position
+`lm_hand2point1rot` - absolute finger 1 rotation
+`lm_hand2point2` - absolute finger 2 position
+`lm_hand2point2rot` - absolute finger 2 rotation
+`lm_hand2point3` - absolute finger 2 position
+`lm_hand2point3rot` - absolute finger 2 rotation
+`lm_hand2point4` - absolute finger 2 position
+`lm_hand2point4rot` - absolute finger 2 rotation
+`lm_hand2point5` - absolute finger 2 position
+`lm_hand2point5rot` - absolute finger 2 rotation
+

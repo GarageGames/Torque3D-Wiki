@@ -102,5 +102,8 @@ When the `$LeapMotion::KeepHandIndexPersistent` global variable is set to `true`
 
 So long as the Leap Motion SDK can maintain a hand's persistent ID then Torque 3D will ensure that its input event index remains the same (again, only when `$LeapMotion::KeepHandIndexPersistent` is `true`).  For example, if the right hands first enters the controller's field of view then it will be assigned the first index (the `lm_hand1` and `lm_hand1rot` events).  And if the left hand is detected then it will be assigned to the second event index.  Now if the right hand leaves the controller's field of view rather than the left hand now taking on the first index, it will remain at the second event index (the `lm_hand2` and `lm_hand2rot` events).
 
+When the `$LeapMotion::KeepPointableIndexPersistent` global variable is set to `true` then Torque 3D also makes use of the persistent ID system with the hand's fingers.  In order for this finger tracking to work the hands must also be tracked with `$LeapMotion::KeepHandIndexPersistent` set to `true`.
+
+
 
 

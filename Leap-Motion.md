@@ -1,4 +1,4 @@
-The [Leap Motion](https://www.leapmotion.com/) controller allows for hands and fingers to provide input to an application.  With commit SHA: 27a81f9c0da8c10fc406a451022f01fc41265fb7 the *development* branch now has preliminary support for this new input device.
+The [Leap Motion](https://www.leapmotion.com/) controller allows for hands and fingers to provide input to an application.  With commit [27a81f9c0d](https://github.com/GarageGames/Torque3D/commit/27a81f9c0da8c10fc406a451022f01fc41265fb7) the *development* branch now has preliminary support for this new input device.
 
 ### Making Use of the Leap Motion Controller in Your Project ###
 

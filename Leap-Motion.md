@@ -138,7 +138,20 @@ moveMap.bind( leapmotion, lm_hand1rot, LMHandRot1);
 Torque 3D allows a hand detected by the Leap Motion controller to be used like a gamepad thumb stick.  To activate these input events we set the `$LeapMotion::GenerateSingleHandRotationAsAxisEvents` global TorqueScript variable to `true`.  With that variable set the following action map input events are available:
 
 `lm_handaxisx`
-`lm_handaxisy
+`lm_handaxisy`
+
+Both of these events mimic the output from a gamepad thumb stick axis and are in the range of -1.0 to 1.0.  Only one hand is supported at this time and the `$LeapMotion::KeepHandIndexPersistent` global variable determines how multiple hands are dealt with (see the discussion above about this variable).
+
+As these events operate like a gamepad thumb stick you may use any of the action map features with them, such as defining dead zones.  For example, here is how you could use the Leap Motion controller to move the player around in one of the Torque 3D templates (place the script in `sciprts/client/default.bind.cs`):
+
+```
+$LeapMotion::SingleHandRotationAsAxisEvents = true;
+moveMap.bind( leapmotion, lm_handaxisx, "D", "-0.23 0.23", gamePadMoveX );
+moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
+```
+
+These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.
+
 
 
 

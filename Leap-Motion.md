@@ -106,7 +106,25 @@ When the `$LeapMotion::KeepPointableIndexPersistent` global variable is set to `
 
 ##### Using Hand and Finger Input Events #####
 
+You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device when with the action map `bind()` method.  Here is an example of making use of the position and rotation events generated when a hand is being tracked by the Leap Motion controller (place it in `scripts/client/default.bind.cs`):
 
+```
+function LMHandPos1(%x, %y, %z)
+{
+   // Output the absolute position of the first hand to the console:
+   echo("Hand 1 position in millimeters:" SPC %x SPC %y SPC %z);
+}
+
+function LMHandRot1(%x, %y, %z, %a)
+{
+   // Output the absolute rotation of the first hand to the console:
+   echo("Hand 1 rotation as angled axis:" SPC %x SPC %y SPC %z SPC %a);
+}
+
+$LeapMotion::GenerateIndividualEvents = true;
+moveMap.bind( leapmotion, lm_hand1, LMHandPos1);
+moveMap.bind( leapmotion, lm_hand1rot, LMHandRot1);
+```
 
 ##### Hand as Thumb Stick Events #####
 

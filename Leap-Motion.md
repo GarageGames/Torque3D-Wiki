@@ -145,7 +145,7 @@ Both of these events mimic the output from a gamepad thumb stick axis and are in
 As these events operate like a gamepad thumb stick you may use any of the action map features with them, such as defining dead zones.  For example, here is how you could use the Leap Motion controller to move the player around in one of the Torque 3D templates (place the script in `sciprts/client/default.bind.cs`):
 
 ```
-$LeapMotion::SingleHandRotationAsAxisEvents = true;
+$LeapMotion::GenerateSingleHandRotationAsAxisEvents= true;
 moveMap.bind( leapmotion, lm_handaxisx, "D", "-0.23 0.23", gamePadMoveX );
 moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
 ```

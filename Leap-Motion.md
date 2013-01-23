@@ -53,3 +53,11 @@ Torque3D::endConfig();
 With these changes in place you may run your project's `generateProjects.bat` file to rebuild the various Visual Studio files.
 
 Before you may run your freshly compiled game you will need to include the appropriate Leap Motion DLLs with your game's executable.  As of the Leap Motion SDK v0.7.1 these files are located in the `Leap_SDK/lib/x86` directory.  Specifically you should copy the `Leap.dll` (the release library) and `Leapd.dll` (the debug library) into the same directory as your game's executable.  When it comes time to release your game you only need to include the 'Leap.dll' library.
+
+### Using the Leap Motion Controller ###
+
+The new Torque 3D Leap Motion input device provides a number of input events that may be used with Torque 3D's action map system.  There are a number of different ways to use the Leap Motion input device, which are set up using global TorqueScript variables.
+
+##### Hand and Finger Input Events #####
+
+Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).

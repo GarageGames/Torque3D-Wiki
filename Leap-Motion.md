@@ -119,6 +119,13 @@ function LMHandRot1(%x, %y, %z, %a)
 {
    // Output the absolute rotation of the first hand to the console:
    echo("Hand 1 rotation as angled axis:" SPC %x SPC %y SPC %z SPC %a);
+
+   // Convert into a world space forward vector
+   %pos = "0 0 0";
+   %rot = %x SPC %y SPC %z SPC %a;
+   %transform = MatrixCreate( %pos, %rot );
+   %forward = MatrixMulVector( %transform, "0 1 0" );
+   echo("Hand 1 world forward vector:" SPC %forward.x SPC %forward.y SPC %forward.z);
 }
 
 $LeapMotion::GenerateIndividualEvents = true;

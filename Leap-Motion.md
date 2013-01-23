@@ -92,3 +92,12 @@ The following action map input events are available (all rotations are in angled
 `lm_hand2point5` - absolute finger 5 position  
 `lm_hand2point5rot` - absolute finger 5 rotation  
 
+Two additional TorqueScript global variables control how the hands and fingers the Leap Motion controller sees are mapped to these events.  The current Leap Motion SDK doesn't map physical hands and fingers to any particular index so you will need to decide which of the follow methods work for your application.
+
+With both the `$LeapMotion::KeepHandIndexPersistent` and `$LeapMotion::KeepPointableIndexPersistent` global variables set to `false` the input event index for each visible hand and finger is determined by the Leap Motion SDK.
+
+For example, if the user places their right hand in view of the Leap Motion controller then its events will occur on the `lm_hand1` and `lm_hand1rot` events.  If the user then places their left hand beside their right hand, then the left hand may be mapped to the second event index, or it could take over the first event index and the right now will now shift to the second event index (`lm_hand2` and `lm_hand2rot`).  This mapping is up to the Leap Motion SDK, and also occurs for the fingers in view.
+
+When the `$LeapMotion::KeepHandIndexPersistent` global variable is set to `true` then Torque 3D makes use of the Leap Motion SDK's persistent ID system.
+
+

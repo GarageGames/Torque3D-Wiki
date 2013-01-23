@@ -51,3 +51,5 @@ Torque3D::endConfig();
 ```
 
 With these changes in place you may run your project's `generateProjects.bat` file to rebuild the various Visual Studio files.
+
+Before you may run your freshly compiled game you will need to include the appropriate Leap Motion DLLs with your game's executable.  As of the Leap Motion SDK v0.7.1 these files are located in the `Leap_SDK/lib/x86` directory.  Specifically you should copy the `Leap.dll` (the release library) and `Leapd.dll` (the debug library) into the same directory as your game's executable.  When it comes time to release your game you only need to include the 'Leap.dll' library.

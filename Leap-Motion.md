@@ -104,6 +104,12 @@ So long as the Leap Motion SDK can maintain a hand's persistent ID then Torque 3
 
 When the `$LeapMotion::KeepPointableIndexPersistent` global variable is set to `true` then Torque 3D also makes use of the persistent ID system with the hand's fingers.  In order for this finger tracking to work the hands must also be tracked with `$LeapMotion::KeepHandIndexPersistent` set to `true`.
 
+##### Using Hand and Finger Input Events #####
 
+
+
+##### Hand as Thumb Stick Events #####
+
+Torque 3D allows a hand detected by the Leap Motion controller to be used like a gamepad thumb stick.
 
 

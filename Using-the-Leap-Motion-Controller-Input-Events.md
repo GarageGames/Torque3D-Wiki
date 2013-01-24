@@ -123,5 +123,21 @@ The `LeapMotionFrame` instances are stored newest to oldest, with the newest at 
 %previousFrame = LeapMotionFrameGroup.getObject(1);
 ```
 
+This may be done at any time that your application is running so long as you are collecting whole frames as set with the `$LeapMotion::GenerateWholeFrameEvents` global variable.
+
+### Using Whole Frame Input Events ###
+
+You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device with the action map `bind()` method.  For example, the following TorqueScript code performs an action against each frame received by the input event:
+
+```
+function LMFrame(%id)
+{
+   // Output some information about this frame to the console
+   echo( "Frame " @ %id @ " time: " @ %id.getFrameRealTime() @ " hands: " @ %id.getHandCount() );
+}
+
+$LeapMotion::GenerateWholeFrameEvents = true;
+moveMap.bind( leapmotion, lm_frame, LMFrame);
+```
 
 

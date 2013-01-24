@@ -77,7 +77,9 @@ moveMap.bind( leapmotion, lm_hand1rot, LMHandRot1);
 
 ### Hand as Thumb Stick Input Events ###
 
-Torque 3D allows a hand detected by the Leap Motion controller to be used like a gamepad thumb stick.  To activate these input events we set the `$LeapMotion::GenerateSingleHandRotationAsAxisEvents` global TorqueScript variable to `true`.  With that variable set the following action map input events are available:
+Torque 3D allows a hand detected by the Leap Motion controller to be used like a gamepad thumb stick.  Imagine that a thumb stick is coming out of the top of your hand and you move it by tilting your hand.
+
+To activate these thumb stick input events we set the `$LeapMotion::GenerateSingleHandRotationAsAxisEvents` global TorqueScript variable to `true`.  With that variable set the following action map input events are available:
 
 `lm_handaxisx`  
 `lm_handaxisy`  

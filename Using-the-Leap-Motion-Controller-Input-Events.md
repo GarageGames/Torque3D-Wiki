@@ -1,6 +1,6 @@
 The new Torque 3D Leap Motion input device provides a number of input events that may be used with Torque 3D's action map system.  There are a number of different ways to use the Leap Motion input device, which are set up using global TorqueScript variables.
 
-### Hand and Finger Input Events ###
+## Hand and Finger Input Events ##
 
 Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The default configuration is to support up to two and and five pointables per hand.  These totals may be changed in `source/platform/input/leapMotion/leapMotionConstants.h`.
 
@@ -75,7 +75,7 @@ moveMap.bind( leapmotion, lm_hand1, LMHandPos1);
 moveMap.bind( leapmotion, lm_hand1rot, LMHandRot1);
 ```
 
-### Hand as Thumb Stick Input Events ###
+## Hand as Thumb Stick Input Events ##
 
 Torque 3D allows a hand detected by the Leap Motion controller to be used like a gamepad thumb stick.  Imagine that a thumb stick is coming out of the top of your hand and you move it by tilting your hand.
 
@@ -100,7 +100,7 @@ These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions a
 
 ------> ADD DISCUSSION ABOUT $LeapMotion::MaximumHandAxisAngle HERE WITH WHAT IT MEANS
 
-### Whole Frame Input Events ###
+## Whole Frame Input Events ##
 
 There may be a time where the provided Leap Motion input events don't quite fit your needs.  In these cases you can make use of the Leap Motion whole frame input event that is available in Torque 3D.  To activate this input event you set the `$LeapMotion::GenerateWholeFrameEvents` global TorqueScript variable to `true`.
 

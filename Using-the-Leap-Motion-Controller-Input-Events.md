@@ -48,7 +48,7 @@ When the `$LeapMotion::KeepPointableIndexPersistent` global variable is set to `
 
 ### Using Hand and Finger Input Events ###
 
-You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device when with the action map `bind()` method.  Here is an example of making use of the position and rotation events generated when a hand is being tracked by the Leap Motion controller (place it in `scripts/client/default.bind.cs`):
+You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device with the action map `bind()` method.  Here is an example of making use of the position and rotation events generated when a hand is being tracked by the Leap Motion controller (place it in `scripts/client/default.bind.cs`):
 
 ```
 function LMHandPos1(%x, %y, %z)
@@ -92,7 +92,9 @@ Only one hand is supported at this time and the `$LeapMotion::KeepHandIndexPersi
 
 ### Using Hand as Thumb Stick Input Events ###
 
-As these events operate like a gamepad thumb stick you may use any of the action map features with them, such as defining dead zones.  For example, here is how you could use the Leap Motion controller to move the player around in one of the Torque 3D templates (place the script in `sciprts/client/default.bind.cs`):
+You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device with the action map `bind()` method.  As these events operate like a gamepad thumb stick you may use any of the action map features with them, such as defining dead zones.  Dead zones are especially useful as they allow for some hand jitter in the rest position without generating input events.
+
+For example, here is how you could use the Leap Motion controller to move the player around in one of the Torque 3D templates (place the script in `sciprts/client/default.bind.cs`):
 
 ```
 $LeapMotion::GenerateSingleHandRotationAsAxisEvents= true;
@@ -100,7 +102,7 @@ moveMap.bind( leapmotion, lm_handaxisx, "D", "-0.23 0.23", gamePadMoveX );
 moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
 ```
 
-These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.
+These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.  These bindings also define a dead zone within the range of -0.23 to 0.23 where no input events will be generated.
 
 ## Whole Frame Input Events ##
 

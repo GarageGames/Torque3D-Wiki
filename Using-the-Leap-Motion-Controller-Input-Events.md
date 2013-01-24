@@ -2,7 +2,7 @@ The new Torque 3D Leap Motion input device provides a number of input events tha
 
 ## Hand and Finger Input Events ##
 
-Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers (or tools) on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The current configuration is to support up to two and and five pointables per hand.  These totals may be changed in `source/platform/input/leapMotion/leapMotionConstants.h`.
+Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers (or tools) on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The current configuration is to support up to two and and five pointables per hand.  These totals may be changed in the source code file  [platform/input/leapMotion/leapMotionConstants.h](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/leapMotion/leapMotionConstants.h).
 
 The following action map input events are available (all positions are in millimeters and all rotations are in angled axis format):
 
@@ -139,5 +139,7 @@ function LMFrame(%id)
 $LeapMotion::GenerateWholeFrameEvents = true;
 moveMap.bind( leapmotion, lm_frame, LMFrame);
 ```
+
+The 'LeapMotionFrame' class has a large number of methods available for working with a frame's hands and pointables.  Please see the source code file [platform/input/leapMotion/leapMotionFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/leapMotion/leapMotionFrame.cpp) for a complete list of the available methods.
 
 

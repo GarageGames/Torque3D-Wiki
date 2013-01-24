@@ -86,6 +86,8 @@ To activate these thumb stick input events we set the `$LeapMotion::GenerateSing
 
 Both of these events mimic the output from a gamepad thumb stick axis and are in the range of -1.0 to 1.0.  Only one hand is supported at this time and the `$LeapMotion::KeepHandIndexPersistent` global variable determines how multiple hands are dealt with (see the discussion above about this variable).
 
+### Hand as Thumb Stick Input Events ###
+
 As these events operate like a gamepad thumb stick you may use any of the action map features with them, such as defining dead zones.  For example, here is how you could use the Leap Motion controller to move the player around in one of the Torque 3D templates (place the script in `sciprts/client/default.bind.cs`):
 
 ```
@@ -96,7 +98,6 @@ moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
 
 These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.
 
-------> ADD DESCRIPTION OF THINKING OF STICK COMING OUT THE TOP OF THE HAND AND YOU CONTROL IT BY TILTING YOUR HAND.
 ------> ADD DISCUSSION ABOUT $LeapMotion::MaximumHandAxisAngle HERE WITH WHAT IT MEANS
 
 ### Whole Frame Input Events ###

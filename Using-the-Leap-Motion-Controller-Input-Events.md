@@ -142,4 +142,20 @@ moveMap.bind( leapmotion, lm_frame, LMFrame);
 
 The 'LeapMotionFrame' class has a large number of methods available for working with a frame's hands and pointables.  Please see the source code file [platform/input/leapMotion/leapMotionFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/leapMotion/leapMotionFrame.cpp) for a complete list of the available methods.
 
+## Miscellaneous Input Events ##
+
+The `lm_framevaliddata` input event is generated the Leap Motion controller gains or loses all hand and pointable tracking information.  This transition may occur when the user places their hand over the controller and then removes it.  This event can be useful for changing the application's state, such as pausing when nothing is being tracked by the Leap Motion controller.
+
+The `lm_framevaliddata` input event provides a single parameter that has a value of 1 when hand or pointable tracking data is available, and 0 when there is no longer any tracking data.  Here is an example of using this event:
+
+```
+function LMFrameValidData(%val)
+{
+   echo("Frame valid data: " @ %val);
+}
+
+moveMap.bind( leapmotion, lm_framevaliddata, LMFrameValidData);
+```
+
+This event is always available from the Leap Motion controller input device.
 

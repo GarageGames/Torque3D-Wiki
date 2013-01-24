@@ -152,6 +152,7 @@ moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
 
 These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.
 
+------> ADD DESCRIPTION OF THINKING OF STICK COMING OUT THE TOP OF THE HAND AND YOU CONTROL IT BY TILTING YOUR HAND.
 ------> ADD DISCUSSION ABOUT $LeapMotion::MaximumHandAxisAngle HERE WITH WHAT IT MEANS
 
 ##### Whole Frame Input Events #####

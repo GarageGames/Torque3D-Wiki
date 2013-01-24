@@ -159,3 +159,12 @@ moveMap.bind( leapmotion, lm_framevaliddata, LMFrameValidData);
 
 This event is always available from the Leap Motion controller input device.
 
+## Order of Input Events ##
+
+The following is the order in which input events may be received by the application:
+
+1. The `lm_framevaliddata` event.
+2. If `$LeapMotion::GenerateIndividualEvents` is `true` then all individual hand and pointable events.
+3. If `$LeapMotion::GenerateSingleHandRotationAsAxisEvents` is `true` then the `lm_handaxisx` and `lm_handaxisy` events, but only if these values have changed this frame compared to the previous frame.  This is the same behavior as with gamepad thumb sticks.
+4. If `$LeapMotion::GenerateWholeFrameEvents` is `true` then the `lm_frame` event.
+

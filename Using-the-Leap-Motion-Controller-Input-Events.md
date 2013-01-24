@@ -140,7 +140,7 @@ $LeapMotion::GenerateWholeFrameEvents = true;
 moveMap.bind( leapmotion, lm_frame, LMFrame);
 ```
 
-The 'LeapMotionFrame' class has a large number of methods available for working with a frame's hands and pointables.  Please see the source code file [platform/input/leapMotion/leapMotionFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/leapMotion/leapMotionFrame.cpp) for a complete list of the available methods.
+The 'LeapMotionFrame' class has a large number of methods available for working with a frame's hands and pointables.  Please see the bottom of the source code file [platform/input/leapMotion/leapMotionFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/leapMotion/leapMotionFrame.cpp) for a complete list of the available methods.
 
 ## Miscellaneous Input Events ##
 

@@ -110,6 +110,18 @@ These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions a
 
 ## Whole Frame Input Events ##
 
-There may be a time where the provided Leap Motion input events don't quite fit your needs.  In these cases you can make use of the Leap Motion whole frame input event that is available in Torque 3D.  To activate this input event you set the `$LeapMotion::GenerateWholeFrameEvents` global TorqueScript variable to `true`.
+There may be a time when the provided Leap Motion input events don't quite fit your needs.  In these cases you may make use of the Leap Motion whole frame input event that is available in Torque 3D.  To activate this input event you set the `$LeapMotion::GenerateWholeFrameEvents` global TorqueScript variable to `true`.  When active, you may then receive the `lm_frame` input event.
+
+The `lm_frame` event is unique in that it provides a single value that is a SimObject ID to a `LeapMotionFrame` class instance.  You may then use this ID to call the instance's methods and retrieve the frame's data.
+
+Each 'LeapMotionFrame' class instance is automatically stored within the `LeapMotionFrameGroup` SimGroup.  A maximum number of `LeapMotionFrame` objects are kept at any time as determined by the `$LeapMotion::MaximumFramesStored` global TorqueScript variable (the default is 30).  When a new `LeapMotionFrame` object is required, the oldest is removed from the `LeapMotionFrameGroup` and recycled.
+
+The `LeapMotionFrame` instances are stored newest to oldest, with the newest at index 0 within the group.  When you receive a `lm_frame` event you may safely assume that the frame ID given in the frame's parameter is the first frame in the `LeapMotionFrameGroup`.  To manually retrieve the newest frame and the frame that came just before it (perhaps to perform a delta calculation between the two) you may use the following:
+
+```
+%newestFrame = LeapMotionFrameGroup.getObject(0);
+%previousFrame = LeapMotionFrameGroup.getObject(1);
+```
+
 
 

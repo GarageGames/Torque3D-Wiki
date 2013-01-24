@@ -48,4 +48,13 @@ Torque3D::endConfig();
 ?>
 ```
 
+### Use With Other Move Classes ###
+
+Using the `ExtendedMove` class is an all or nothing proposition.  You either have your application compiled with it, or you don't.  When you make use of it in your project, it is in place of the standard `Move` class and therefore its special properties may be accessed from any other `GameBase` class.
+
+This operates in the same way that HiFi networking does, which also takes over how the `Move` class and its support classes operate.  This means that you cannot have both `ExtendedMove` support and HiFi networking active at the same time.
+
+### GameBase Classes And ExtendedMove ###
+
+Currently there are no `GameBase` classes that support the new properties of the `ExtendedMove` class.  You will need to implement support for the `ExtendedMove` class yourself as your project requries.  This could be in the form of a modified `Player` class, or something completely new.
 

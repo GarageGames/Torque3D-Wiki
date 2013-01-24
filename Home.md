@@ -24,6 +24,10 @@ In addition to GitHub we also have our own ZIP package that combines the Torque3
 * [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)
 * [Compiling Torque 3D on Linux](wiki/Compiling-Torque-3D-on-Linux)
 
+### New Input Device Support
+* [Leap Motion Controller](wiki/Leap-Motion)
+* [ExtendedMove Class](wiki/ExtendedMove-Class)
+
 ### Getting Help
 * [Beginner Forum](http://www.garagegames.com/community/forums/73)
 * [Professional Forum](http://www.garagegames.com/community/forums/63)

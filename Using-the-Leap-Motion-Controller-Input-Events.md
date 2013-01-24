@@ -127,7 +127,7 @@ This may be done at any time that your application is running so long as you are
 
 ### Using Whole Frame Input Events ###
 
-You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device with the action map `bind()` method.  For example, the following TorqueScript code performs an action against each frame received by the input event:
+You bind the Leap Motion input events to an action map just like any other input event.  Specifically, you tie the events to the `leapmotion` device with the action map `bind()` method.  For example, the following TorqueScript code (placed in `scripts/client/default.bind.cs`) performs an action against each frame received by the input event:
 
 ```
 function LMFrame(%id)

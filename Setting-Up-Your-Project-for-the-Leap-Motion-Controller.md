@@ -33,7 +33,7 @@ $TORQUE_HIFI_NET = false;
 // Set this to true to enable the ExtendedMove class.  This
 // allows the passing of absolute position and rotation input
 // device information from the client to the server.
-$TORQUE_EXTENDED_MOVE = true;
+$TORQUE_EXTENDED_MOVE = false;
 
 // Our path to the Leap Motion SDK:
 $LEAPMOTION_SDK_PATH = "C:\Users\dwyand_2\Downloads\LeapMotion\Leap_Developer_Kit_0.7.1_Windows\Leap_SDK";

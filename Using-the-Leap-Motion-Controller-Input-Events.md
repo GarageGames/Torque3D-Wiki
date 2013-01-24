@@ -6,33 +6,37 @@ Torque 3D may provide absolute position and rotation information on any hands wi
 
 The following action map input events are available (all rotations are in angled axis format):
 
-**Hand 1**  
-`lm_hand1` - absolute position  
-`lm_hand1rot` - absolute rotation  
-`lm_hand1point1` - absolute finger 1 position  
-`lm_hand1point1rot` - absolute finger 1 rotation  
-`lm_hand1point2` - absolute finger 2 position  
-`lm_hand1point2rot` - absolute finger 2 rotation  
-`lm_hand1point3` - absolute finger 3 position  
-`lm_hand1point3rot` - absolute finger 3 rotation  
-`lm_hand1point4` - absolute finger 4 position  
-`lm_hand1point4rot` - absolute finger 4 rotation  
-`lm_hand1point5` - absolute finger 5 position  
-`lm_hand1point5rot` - absolute finger 5 rotation  
+**Hand 1**
+* `lm_hand1` - absolute position
+* `lm_hand1rot` - absolute rotation
 
-**Hand 2**  
-`lm_hand2` - absolute position  
-`lm_hand2rot` - absolute rotation  
-`lm_hand2point1` - absolute finger 1 position  
-`lm_hand2point1rot` - absolute finger 1 rotation  
-`lm_hand2point2` - absolute finger 2 position  
-`lm_hand2point2rot` - absolute finger 2 rotation  
-`lm_hand2point3` - absolute finger 3 position  
-`lm_hand2point3rot` - absolute finger 3 rotation  
-`lm_hand2point4` - absolute finger 4 position  
-`lm_hand2point4rot` - absolute finger 4 rotation  
-`lm_hand2point5` - absolute finger 5 position  
-`lm_hand2point5rot` - absolute finger 5 rotation  
+**Hand 1 Pointables**
+* `lm_hand1point1` - absolute finger 1 position
+* `lm_hand1point1rot` - absolute finger 1 rotation
+* `lm_hand1point2` - absolute finger 2 position
+* `lm_hand1point2rot` - absolute finger 2 rotation
+* `lm_hand1point3` - absolute finger 3 position
+* `lm_hand1point3rot` - absolute finger 3 rotation
+* `lm_hand1point4` - absolute finger 4 position
+* `lm_hand1point4rot` - absolute finger 4 rotation
+* `lm_hand1point5` - absolute finger 5 position
+* `lm_hand1point5rot` - absolute finger 5 rotation
+
+**Hand 2**
+* `lm_hand2` - absolute position
+* `lm_hand2rot` - absolute rotation
+
+**Hand 2 Pointables**
+* `lm_hand2point1` - absolute finger 1 position
+* `lm_hand2point1rot` - absolute finger 1 rotation
+* `lm_hand2point2` - absolute finger 2 position
+* `lm_hand2point2rot` - absolute finger 2 rotation
+* `lm_hand2point3` - absolute finger 3 position
+* `lm_hand2point3rot` - absolute finger 3 rotation
+* `lm_hand2point4` - absolute finger 4 position
+* `lm_hand2point4rot` - absolute finger 4 rotation
+* `lm_hand2point5` - absolute finger 5 position
+* `lm_hand2point5rot` - absolute finger 5 rotation
 
 Two additional TorqueScript global variables control how the hands and fingers the Leap Motion controller sees are mapped to these events.  The current Leap Motion SDK doesn't map physical hands and fingers to any particular index so you will need to decide which of the follow methods work for your application.
 

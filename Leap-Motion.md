@@ -2,3 +2,6 @@ The [Leap Motion](https://www.leapmotion.com/) controller allows for hands and f
 
 * [Setting Up Your Project for the Leap Motion Controller](Setting-Up-Your-Project-for-the-Leap-Motion-Controller)
 * [Using the Leap Motion Controller Input Events](Using-the-Leap-Motion-Controller-Input-Events)
+
+You may also want to check out the following related pages:
+* [ExtendedMove Class](ExtendedMove-Class)

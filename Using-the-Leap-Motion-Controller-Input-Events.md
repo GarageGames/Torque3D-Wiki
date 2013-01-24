@@ -161,7 +161,7 @@ This event is always available from the Leap Motion controller input device.
 
 ## Order of Input Events ##
 
-The following is the order in which input events may be received by the application:
+The following is the order in which Leap Motion input events may be received by the application:
 
 1. The `lm_framevaliddata` event.
 2. If `$LeapMotion::GenerateIndividualEvents` is `true` then all individual hand and pointable events.

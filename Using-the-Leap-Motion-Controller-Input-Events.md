@@ -2,7 +2,7 @@ The new Torque 3D Leap Motion input device provides a number of input events tha
 
 ## Hand and Finger Input Events ##
 
-Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The default configuration is to support up to two and and five pointables per hand.  These totals may be changed in `source/platform/input/leapMotion/leapMotionConstants.h`.
+Torque 3D may provide absolute position and rotation information on any hands within the Leap Motion controller's view, along with any fingers (or tools) on the hands (known as pointables in the Leap Motion SDK).  In order to receive these events the `$LeapMotion::GenerateIndividualEvents` global TorqueScript variable should be set to `true` (the default).  The default configuration is to support up to two and and five pointables per hand.  These totals may be changed in `source/platform/input/leapMotion/leapMotionConstants.h`.
 
 The following action map input events are available (all rotations are in angled axis format):
 

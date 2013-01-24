@@ -1,5 +1,7 @@
 The `ExtendedMove` class expands on the standard `Move` class that is used by various `GameBase` classes, such as the `Player` class.  The `ExtendedMove` class adds support for absolute positions (in millimeters) and rotations to be passed from the client to the server.  This makes it easier to support new input devices such as the [Leap Motion](Leap-Motion) controller in multiplayer environments where the server must validate all moves.
 
+### Configure Your project.conf ###
+
 The files for the `ExtendedMove` class and its support classes may be found under the [T3D/gameBase/extended/](https://github.com/GarageGames/Torque3D/tree/development/Engine/source/T3D/gameBase/extended) directory.  In order to make use of the `ExtendedMove` class in your own project you will need to modify your project's `buildFiles/config/project.conf` file to pass along the `$TORQUE_EXTENDED_MOVE` variable to Torque 3D's Project Generator.  Specifically you'll want to add the following to the top of your `project.conf` file:
 
 ```
@@ -9,7 +11,11 @@ The files for the `ExtendedMove` class and its support classes may be found unde
 $TORQUE_EXTENDED_MOVE = true;
 ```
 
-After making this change you will need to run your project's `generateProjects.bat' file to rebuild the Visual Studio files.  Here is a complete example of a `project.conf` file with the required change, along with Leap Motion controller support:
+After making this change you will need to run your project's `generateProjects.bat' file to rebuild the Visual Studio files.
+
+### Example project.conf ###
+
+Here is a complete example of a `project.conf` file with the required change, along with Leap Motion controller support:
 
 ```
 <?php

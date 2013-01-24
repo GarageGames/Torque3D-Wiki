@@ -84,7 +84,11 @@ To activate these thumb stick input events we set the `$LeapMotion::GenerateSing
 `lm_handaxisx`  
 `lm_handaxisy`  
 
-Both of these events mimic the output from a gamepad thumb stick axis and are in the range of -1.0 to 1.0.  Only one hand is supported at this time and the `$LeapMotion::KeepHandIndexPersistent` global variable determines how multiple hands are dealt with (see the discussion above about this variable).
+Both of these events mimic the output from a gamepad thumb stick axis and are in the range of -1.0 to 1.0.  Internally, these x and y axis values are normalized to ensure the length of their vector is never more than 1, just like a real thumb stick.
+
+In order to calculate the -1.0 to 1.0 range, the tilt of the hand with respect to a vector pointing straight up (technically this vector is normal to the plane of the Leap Motion controller's top surface) is used.  When this hand to up vector angle reaches the `$LeapMotion::MaximumHandAxisAngle` global script variable value (the default is 25 degrees) then the virtual thumb stick is considered all the way over.  Adjusting `$LeapMotion::MaximumHandAxisAngle` for your application determines how far over the user must tilt their hand for a 100% value.
+
+Only one hand is supported at this time and the `$LeapMotion::KeepHandIndexPersistent` global variable determines how multiple hands are dealt with (see the discussion above about this variable).
 
 ### Using Hand as Thumb Stick Input Events ###
 
@@ -97,8 +101,6 @@ moveMap.bind( leapmotion, lm_handaxisy, "D", "-0.23 0.23", gamePadMoveY );
 ```
 
 These two bindings make use of the `gamePadMoveX` and `gamePadMoveY` functions already defined in `scripts/client/default.bind/cs`, which are also called when the player uses a Xbox 360 compatible gamepad.
-
-------> ADD DISCUSSION ABOUT $LeapMotion::MaximumHandAxisAngle HERE WITH WHAT IT MEANS
 
 ## Whole Frame Input Events ##
 

@@ -1,0 +1,1 @@
+The `ExtendedMove` class expands on the standard `Move` class that is used by various `GameBase` classes, such as the `Player` class.  The `ExtendedMove` class adds support for absolute positions (in millimeters) and rotations to be passed from the client to the server.

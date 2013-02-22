@@ -42,3 +42,25 @@ As with a standard gamepad, each of the thumb stick motions (and even the trigge
 moveMap.bind( razerhydra, rh_thumbx1, "D", "-0.23 0.23", gamepadYaw );
 moveMap.bind( razerhydra, rh_thumby1, "D", "-0.23 0.23", gamepadPitch );
 ```
+
+## Controller Absolute Position and Rotation Events ##
+
+The unique feature of the Razer Hydra is being able to detect each the left and right controller's absolute position and rotation in space.  When it comes to generating position input events, there are two options available.  The first option is to receive each x, y and z axis update as separate events given as `rh_posx`, `rh_posy` and `rh_posz`.  You activate this option by setting the global TorqueScript variable `$RazerHydra::SeparatePositionEvents` to `true`, which is the default setting.  This is similar to how a thumb stick generates separate events for both the x and y axis.
+
+The second option is to receive only a single position event `rh_pos` that includes each axis as a separate parameter.  You activate this mode by setting the global TorqueScript variable `$RazerHydra::CombinedPositionEvents` to `true`.  The primary advantage of this mode is you generally produce much less input events for Torque 3D to process.
+
+The following action map input events are available (all positions are in millimeters and all rotations are in angled axis format):
+
+**Left Controller**
+* `rh_posx0` - absolute x axis position
+* `rh_posy0` - absolute y axis position
+* `rh_posz0` - absolute z axis position
+* `rh_pos0` - absolute position provided as 3 parameters
+* `rh_rot0` - absolute rotation
+
+**Right Controller**
+* `rh_posx1` - absolute x axis position
+* `rh_posy1` - absolute y axis position
+* `rh_posz1` - absolute z axis position
+* `rh_pos1` - absolute position provided as 3 parameters
+* `rh_rot1` - absolute rotation

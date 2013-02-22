@@ -5,7 +5,7 @@ The new Torque 3D Razer Hydra input device provides a number of input events tha
 When binding a TorqueScript function to a Razer Hydra input event using Torque 3D's action map system, the device name to use is `razerhydra`.  As only one Razer Hydra may be used on a computer at a time, there is no need to append a device instance number to the end of the device name.  The following is an example of setting up a proper action map binding:
 
 ```
-moveMap.bind(razerhydra, rh_trigger1, gamepadFire);
+moveMap.bind( razerhydra, rh_trigger1, gamepadFire );
 ```
 
 ## Standard Gamepad Input Events ##
@@ -35,3 +35,10 @@ The Razer Hydra provides a full compliment of gamepad buttons and sticks spread 
 * `rh_2button1` - 2 button
 * `rh_3button1` - 3 button
 * `rh_4button1` - 4 button
+
+As with a standard gamepad, each of the thumb stick motions (and even the trigger although it is not usually used this way) are of the *AXIS* type.  This means that additional modifiers may be placed on their inputs, such as defining a dead zone.  For example, here is how you could set up the right controller's thumb stick to be used to rotate the player with a slight dead zone around the stick's neutral position:
+
+```
+moveMap.bind( razerhydra, rh_thumbx1, "D", "-0.23 0.23", gamepadYaw );
+moveMap.bind( razerhydra, rh_thumby1, "D", "-0.23 0.23", gamepadPitch );
+```

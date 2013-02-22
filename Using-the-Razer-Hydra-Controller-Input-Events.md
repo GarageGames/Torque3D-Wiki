@@ -182,7 +182,7 @@ The following is the order in which Razer Hydra input events may be received by 
 3. If `$RazerHydra::CombinedPositionEvents` is `true` then the combined controller position event.
 4. The controller's rotation event.
 5. All standard gamepad input events.
-6. If `$RazerHydra::RotationAsAxisEvents` is `true` then the controller as thumb stick input events, but only if these values have changed this frame compared to the previous frame.  This is the same behavior as with gamepad thumb sticks.
+6. If `$RazerHydra::RotationAsAxisEvents` is `true` then the controller as thumb stick input events, but only if these values have changed this frame compared to the previous frame.  This is the same behavior as with gamepad thumb sticks.  When a controller is docked one last input event of this type is sent out with a value of `0.0`.  This returns the virtual thumb stick to a neutral position.
 
 *Following the controllers being processed*
 

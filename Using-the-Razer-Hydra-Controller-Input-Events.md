@@ -146,3 +146,27 @@ moveMap.bind( razerhydra, rh_frame, RHFrame);
 ```
 
 The 'RazerHydraFrame' class has a large number of methods available for working with a frame's controller data.  Please see the bottom of the source code file [platform/input/razerHydra/razerHydraFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/razerHydra/razerHydraFrame) for a complete list of the available methods.
+
+## Miscellaneous Input Events ##
+
+The `rh_docked0` and `rh_docked1` (for left and right) input events are generated whenever a controller's docked status changes.  A controller is docked when it is sitting in the Razer Hydra base station.  This event can be useful for changing the application's state, such as pausing when nothing is being tracked by the Razer Hydra controller.
+
+The `rh_docked0` and `rh_docked1` input events provides a single parameter that has a value of 1 when a controller is docked, and 0 when a controller has been picked up by the user.  Here is an example of using this event:
+
+```
+function RHDocked0(%val)
+{
+   echo("Left controller is docked: " @ %val);
+}
+
+// Set up for the left controller
+moveMap.bind( razerhydra, rh_docked0, RHDocked0);
+```
+
+We may also check a controller's docked status at any time with the following TorqueScript function:
+
+```
+isRazerHydraControllerDocked( controller );
+```
+
+where the *controller* parameter is `0` or `1` for the left or right controller.  This function returns `true` if the requested controller is currently docked.  As the `rh_docked0` and `rh_docked1` input events are only generated when a controller's docked status changes, the `isRazerHydraControllerDocked()` function is useful when your game first starts up to detect a controller's current state.

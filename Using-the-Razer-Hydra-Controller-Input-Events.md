@@ -169,4 +169,19 @@ We may also check a controller's docked status at any time with the following To
 isRazerHydraControllerDocked( controller );
 ```
 
-where the *controller* parameter is `0` or `1` for the left or right controller.  This function returns `true` if the requested controller is currently docked.  As the `rh_docked0` and `rh_docked1` input events are only generated when a controller's docked status changes, the `isRazerHydraControllerDocked()` function is useful when your game first starts up to detect a controller's current state.
+where the *controller* parameter is `0` or `1` for the left or right controller.  This function returns `true` if the requested controller is currently docked.  As the `rh_docked0` and `rh_docked1` input events are only generated when a controller's docked status changes, the `isRazerHydraControllerDocked()` function is useful when your application first starts up to detect a controller's current state.
+
+## Order of Input Events ##
+
+The following is the order in which Razer Hydra input events may be received by the application:
+
+*For each controller, starting with the left one*
+1. The `rh_docked` event.  If a controller is docked and `$RazerHydra::ProcessWhenDocked` is set to `false` then the following controller events will be skipped.
+2. If `$RazerHydra::SeparatePositionEvents` is `true` then all individual controller position events.
+3. If `$RazerHydra::CombinedPositionEvents` is `true` then the combined controller position event.
+4. The controller's rotation event.
+5. All standard gamepad input events.
+6. If `$RazerHydra::RotationAsAxisEvents` is `true` then the controller as thumb stick input events, but only if these values have changed this frame compared to the previous frame.  This is the same behavior as with gamepad thumb sticks.
+
+*Following the controllers being processed*
+1. If `$RazerHydra::GenerateWholeFrameEvents` is `true` then the `rh_frame` event.

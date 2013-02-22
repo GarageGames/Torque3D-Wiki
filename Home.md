@@ -29,6 +29,7 @@ In addition to GitHub we also have a couple of pre-packaged files for you to dow
 
 ### New Input Device Support
 * [Leap Motion Controller](wiki/Leap-Motion)
+* [Razer Hydra Controller](wiki/Razer-Hydra)
 * [ExtendedMove Class](wiki/ExtendedMove-Class)
 
 ### Getting Help

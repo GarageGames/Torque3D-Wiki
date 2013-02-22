@@ -54,4 +54,6 @@ Torque3D::endConfig();
 
 ### Required DLLs ###
 
-Before you may run your freshly compiled game you will need to include the appropriate Sixense DLLs with your game's executable.  These files are located in the `SixenseSDK_062612/bin/win32` directory.  Specifically you should copy the `sixense.dll` (the release library) and `sixensed.dll` (the debug library) into the same directory as your game's executable.  It appears that the debug version of the Sixense DLL also requires `DeviceDLL.dll` that is located in the `SixenseSDK_062612\samples\win32\sixense_simple3d` directory.  When it comes time to release your game you only need to include the 'sixense.dll' library.
+Before you may run your freshly compiled game you will need to include the appropriate Sixense DLLs with your game's executable.  These files are located in the `SixenseSDK_062612/bin/win32` directory.  Specifically you should copy the `sixense.dll` (the release library) and `sixensed.dll` (the debug library) into the same directory as your game's executable.  It appears that the debug version of the Sixense DLL also requires `DeviceDLL.dll` that is located in the `SixenseSDK_062612\samples\win32\sixense_simple3d` directory.  You should also copy this file to your game's executable directory.
+
+When it comes time to release your game you only need to include the 'sixense.dll' library.

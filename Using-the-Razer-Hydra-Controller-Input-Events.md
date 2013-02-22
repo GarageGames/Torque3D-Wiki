@@ -112,3 +112,37 @@ To activate these thumb stick input events we set the `$RazerHydra::RotationAsAx
 Internally, these x and y axis values are normalized to ensure the length of their vector is never more than 1, just like a real thumb stick.
 
 In order to calculate the -1.0 to 1.0 range, the tilt of the controller with respect to a vector pointing straight up (technically this vector is normal to the plane of the Razer Hydra's base unit) is used.  When this controller to up vector angle reaches the `$RazerHydra::MaximumAxisAngle` global script variable value (the default is 25 degrees) then the virtual thumb stick is considered all the way over.  Adjusting `$RazerHydra::MaximumAxisAngle` for your application determines how far over the user must tilt their controller for a 100% value.
+
+## Whole Frame Input Events ##
+
+There may be a time when the provided Razer Hydra input events don't quite fit your needs.  In these cases you may make use of the Razer Hydra whole frame input event that is available in Torque 3D.  To activate this input event you set the `$RazerHydra::GenerateWholeFrameEvents` global TorqueScript variable to `true`.  When active, you may then receive the `rh_frame` input event.
+
+The `rh_frame` event is unique in that it provides a single value that is a SimObject ID to a `RazerHydraFrame` class instance.  You may then use this ID to call the instance's methods and retrieve the frame's data.
+
+Each 'RazerHydraFrame' class instance is automatically stored within the `RazerHydraFrameGroup` SimGroup.  A maximum number of `RazerHydraFrame` objects are kept at any time as determined by the `$RazerHydra::MaximumFramesStored` global TorqueScript variable (the default is 30).  When a new `RazerHydraFrame` object is required, the oldest is removed from the `RazerHydraFrameGroup` and recycled.
+
+The `RazerHydraFrame` instances are stored newest to oldest, with the newest at index 0 within the group.  When you receive a `rh_frame` event you may safely assume that the frame ID given in the frame's parameter is the first frame in the `RazerHydraFrameGroup`.  To manually retrieve the newest frame and the frame that came just before it (perhaps to perform a delta calculation between the two) you may use the following:
+
+```
+%newestFrame = RazerHydraFrameGroup.getObject(0);
+%previousFrame = RazerHydraFrameGroup.getObject(1);
+```
+
+This may be done at any time that your application is running so long as you are collecting whole frames as set with the `$RazerHydra::GenerateWholeFrameEvents` global variable.
+
+### Using Whole Frame Input Events ###
+
+You bind the Razer Hydra input events to an action map just like any other input event.  Specifically, you tie the events to the `razerhydra` device with the action map `bind()` method.  For example, the following TorqueScript code (placed in `scripts/client/default.bind.cs`) performs an action against each frame received by the input event:
+
+```
+function RHFrame(%id)
+{
+   // Output some information about this frame to the console
+   echo( "Frame " @ %id @ " time: " @ %id.getFrameRealTime() @ " left controller transform: " @ %id.getControllerTransform(0) );
+}
+
+$RazerHydra::GenerateWholeFrameEvents = true;
+moveMap.bind( razerhydra, rh_frame, RHFrame);
+```
+
+The 'RazerHydraFrame' class has a large number of methods available for working with a frame's controller data.  Please see the bottom of the source code file [platform/input/razerHydra/razerHydraFrame.cpp](https://github.com/GarageGames/Torque3D/blob/development/Engine/source/platform/input/razerHydra/razerHydraFrame) for a complete list of the available methods.

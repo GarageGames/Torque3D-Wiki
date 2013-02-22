@@ -94,3 +94,21 @@ $RazerHydra::CombinedPositionEvents= true;
 moveMap.bind( razerhydra, rh_pos1, RHPos1);
 moveMap.bind( razerhydra, rh_rot1, RHRot1);
 ```
+
+## Controller as Thumb Stick Input Events ##
+
+Torque 3D allows a Razer Hydra controller to be used like a gamepad thumb stick.  Imagine that a thumb stick is coming out of the top of the controller and you move it by tilting the controller.
+
+To activate these thumb stick input events we set the `$RazerHydra::RotationAsAxisEvents` global TorqueScript variable to `true`.  With that variable set the following action map input events are available:
+
+**Left Controller**
+* `rh_rotaxisx0` - thumb stick like x-axis motion in the range of -1.0 to 1.0
+* `rh_rotaxisy0` - thumb stick like y-axis motion in the range of -1.0 to 1.0
+
+**Right Controller**
+* `rh_rotaxisx1` - thumb stick like x-axis motion in the range of -1.0 to 1.0
+* `rh_rotaxisy1` - thumb stick like y-axis motion in the range of -1.0 to 1.0
+
+Internally, these x and y axis values are normalized to ensure the length of their vector is never more than 1, just like a real thumb stick.
+
+In order to calculate the -1.0 to 1.0 range, the tilt of the controller with respect to a vector pointing straight up (technically this vector is normal to the plane of the Razer Hydra's base unit) is used.  When this controller to up vector angle reaches the `$RazerHydra::MaximumAxisAngle` global script variable value (the default is 25 degrees) then the virtual thumb stick is considered all the way over.  Adjusting `$RazerHydra::MaximumAxisAngle` for your application determines how far over the user must tilt their controller for a 100% value.

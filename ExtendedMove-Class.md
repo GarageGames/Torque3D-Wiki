@@ -63,19 +63,25 @@ Beyond these standard global input variables, the `ExtendedMove` class adds a nu
 The following global input variables are available with the `ExtendedMove` class to pass along absolute position:
 
 **First Set**
-* `mvPosX0` - X position in millimeters
-* `mvPosY0` - Y position in millimeters
-* `mvPosZ0` - Z position in millimeters
+* `$mvPosX0` - X position in millimeters
+* `$mvPosY0` - Y position in millimeters
+* `$mvPosZ0` - Z position in millimeters
 
 **Second Set**
-* `mvPosX1` - X position in millimeters
-* `mvPosY1` - Y position in millimeters
-* `mvPosZ1` - Z position in millimeters
+* `$mvPosX1` - X position in millimeters
+* `$mvPosY1` - Y position in millimeters
+* `$mvPosZ1` - Z position in millimeters
 
 **Third Set**
-* `mvPosX2` - X position in millimeters
-* `mvPosY2` - Y position in millimeters
-* `mvPosZ2` - Z position in millimeters
+* `$mvPosX2` - X position in millimeters
+* `$mvPosY2` - Y position in millimeters
+* `$mvPosZ2` - Z position in millimeters
+
+When it comes to rotation there are a couple of options available on a per set basis.  An absolute rotation may be passed in as either a Euler angle (heading, pitch, bank) or as an angled axis (a vector and a rotation about the vector).  The following global input variables are used to determine how the rotations are represented:
+
+* `$mvRotIsEuler0` - If true then the first set uses Euler angles
+* `$mvRotIsEuler1` - If true then the second set uses Euler angles
+* `$mvRotIsEuler2` - If true then the third set uses Euler angles
 
 ### GameBase Classes And ExtendedMove ###
 

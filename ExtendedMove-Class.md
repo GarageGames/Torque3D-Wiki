@@ -83,7 +83,7 @@ When it comes to rotation there are a couple of options available on a per set b
 * `$mvRotIsEuler1` - If true then the second set uses Euler angles
 * `$mvRotIsEuler2` - If true then the third set uses Euler angles
 
-When using Euler angle rotations the following global input variable are available:
+When using Euler angle rotations (the set's `$mvRotIsEulerN` is `true`) the following global input variable are available:
 
 **First Set**
 * `$mvRotX0` - Pitch rotation in degrees

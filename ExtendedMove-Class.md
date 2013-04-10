@@ -54,6 +54,12 @@ Using the `ExtendedMove` class is an all or nothing proposition.  You either hav
 
 This operates in the same way that HiFi networking does, which also takes over how the `Move` class and its support classes operate.  This means that you cannot have both `ExtendedMove` support and HiFi networking active at the same time.
 
+### Passing Data to the ExtendedMove Class ###
+
+As the `ExtendedMove` class is an extension of the standard `Move` class all of the usual global input variables are still available.  So you would still use `$mvTriggerCount0` to activate the first trigger, for example.
+
+Beyond these standard global input variables, the `ExtendedMove` class adds a number of global input variable to handle absolute position and rotation values.  By default, the `ExtendedMove` class supports three sets of positions and rotations.  This is enough for two hands when using the Leap Motion controller, or for head tracking from the Oculus Rift plus two hands using a Razer Hydra.  Additional sets may be added by modifying the ExtendedMove::MaxPositionsRotations constant and recompiling.
+
 ### GameBase Classes And ExtendedMove ###
 
 Currently there are no `GameBase` classes that support the new properties of the `ExtendedMove` class.  You will need to implement support for the `ExtendedMove` class yourself as your project requries.  This could be in the form of a modified `Player` class, or something completely new.

@@ -122,5 +122,4 @@ When using angled axis rotations (the set's `$mvRotIsEulerN` is false) the follo
 
 ### GameBase Classes And ExtendedMove ###
 
-Currently there are no `GameBase` classes that support the new properties of the `ExtendedMove` class.  You will need to implement support for the `ExtendedMove` class yourself as your project requries.  This could be in the form of a modified `Player` class, or something completely new.
-
+The only two classes that current support the `ExtendedMove` class are the `Player` and `Camera` classes.  And even then it is a very specific use case to do with the Oculus Rift.  In order to really make use of what the `ExtendedMove` class has available you'll need to implement in one of the `GameBase` classes yourself.  The functionality is often very game specific.

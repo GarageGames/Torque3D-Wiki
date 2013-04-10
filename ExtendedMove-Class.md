@@ -83,6 +83,23 @@ When it comes to rotation there are a couple of options available on a per set b
 * `$mvRotIsEuler1` - If true then the second set uses Euler angles
 * `$mvRotIsEuler2` - If true then the third set uses Euler angles
 
+When using Euler angle rotations the following global input variable are available:
+
+**First Set**
+* `$mvRotX0` - Pitch rotation in degrees
+* `$mvRotY0` - Bank rotation in degrees
+* `mvRotZ0` - Heading rotation in degrees
+
+**Second Set**
+* `$mvRotX1` - Pitch rotation in degrees
+* `$mvRotY1` - Bank rotation in degrees
+* `mvRotZ1` - Heading rotation in degrees
+
+**Third Set**
+* `$mvRotX2` - Pitch rotation in degrees
+* `$mvRotY2` - Bank rotation in degrees
+* `mvRotZ2` - Heading rotation in degrees
+
 ### GameBase Classes And ExtendedMove ###
 
 Currently there are no `GameBase` classes that support the new properties of the `ExtendedMove` class.  You will need to implement support for the `ExtendedMove` class yourself as your project requries.  This could be in the form of a modified `Player` class, or something completely new.

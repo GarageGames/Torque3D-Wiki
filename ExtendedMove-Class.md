@@ -60,6 +60,23 @@ As the `ExtendedMove` class is an extension of the standard `Move` class all of 
 
 Beyond these standard global input variables, the `ExtendedMove` class adds a number of global input variable to handle absolute position and rotation values.  By default, the `ExtendedMove` class supports three sets of positions and rotations.  This is enough for two hands when using the Leap Motion controller, or for head tracking from the Oculus Rift plus two hands using a Razer Hydra.  Additional sets may be added by modifying the ExtendedMove::MaxPositionsRotations constant and recompiling.
 
+The following global input variables are available with the `ExtendedMove` class to pass along absolute position:
+
+**First Set**
+* `mvPosX0` - X position in millimeters
+* `mvPosY0` - Y position in millimeters
+* `mvPosZ0` - Z position in millimeters
+
+**Second Set**
+* `mvPosX1` - X position in millimeters
+* `mvPosY1` - Y position in millimeters
+* `mvPosZ1` - Z position in millimeters
+
+**Third Set**
+* `mvPosX2` - X position in millimeters
+* `mvPosY2` - Y position in millimeters
+* `mvPosZ2` - Z position in millimeters
+
 ### GameBase Classes And ExtendedMove ###
 
 Currently there are no `GameBase` classes that support the new properties of the `ExtendedMove` class.  You will need to implement support for the `ExtendedMove` class yourself as your project requries.  This could be in the form of a modified `Player` class, or something completely new.

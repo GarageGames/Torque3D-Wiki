@@ -83,22 +83,42 @@ When it comes to rotation there are a couple of options available on a per set b
 * `$mvRotIsEuler1` - If true then the second set uses Euler angles
 * `$mvRotIsEuler2` - If true then the third set uses Euler angles
 
-When using Euler angle rotations (the set's `$mvRotIsEulerN` is `true`) the following global input variable are available:
+When using Euler angle rotations (the set's `$mvRotIsEulerN` is true) the following global input variable are available:
 
 **First Set**
 * `$mvRotX0` - Pitch rotation in degrees
 * `$mvRotY0` - Bank rotation in degrees
-* `mvRotZ0` - Heading rotation in degrees
+* `$mvRotZ0` - Heading rotation in degrees
 
 **Second Set**
 * `$mvRotX1` - Pitch rotation in degrees
 * `$mvRotY1` - Bank rotation in degrees
-* `mvRotZ1` - Heading rotation in degrees
+* `$mvRotZ1` - Heading rotation in degrees
 
 **Third Set**
 * `$mvRotX2` - Pitch rotation in degrees
 * `$mvRotY2` - Bank rotation in degrees
-* `mvRotZ2` - Heading rotation in degrees
+* `$mvRotZ2` - Heading rotation in degrees
+
+When using angled axis rotations (the set's `$mvRotIsEulerN` is false) the following global input variable are available:
+
+**First Set**
+* `$mvRotX0` - Axis vector's x component
+* `$mvRotY0` - Axis vector's y component
+* `$mvRotZ0` - Axis vector's z component
+* `$mvRotA0` - Amount to rotate about the axis in degrees
+
+**Second Set**
+* `$mvRotX1` - Axis vector's x component
+* `$mvRotY1` - Axis vector's y component
+* `$mvRotZ1` - Axis vector's z component
+* `$mvRotA1` - Amount to rotate about the axis in degrees
+
+**Third Set**
+* `$mvRotX2` - Axis vector's x component
+* `$mvRotY2` - Axis vector's y component
+* `$mvRotZ2` - Axis vector's z component
+* `$mvRotA2` - Amount to rotate about the axis in degrees
 
 ### GameBase Classes And ExtendedMove ###
 

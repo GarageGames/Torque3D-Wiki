@@ -38,3 +38,31 @@ function createCanvas(%windowTitle)
    return true;
 }
 ```
+
+### Step 2: Prepare for Rendering to the Rift ###
+
+Before we can render to the Rift we need to tell Torque 3D about the correct field of view to use, what the eye offsets are, etc.  We also need to enable side-by-side stereo rendering as well as the barrel distortion shader to account for the Rift's lenses.
+
+Fortunately we can just call the `enableOculusVRDisplay()` helper function and it performs this work for us.  A good place to do this is in `GameConnection::initialControlSet()` in `scripts/client/serverConnection.cs` just before you switch to the *PlayGui* GUI control.
+
+```
+function GameConnection::initialControlSet(%this)
+{
+   echo ("*** Initial Control Object");
+
+   // The first control object has been set by the server
+   // and we are now ready to go.
+   
+   // first check if the editor is active
+   if (!isToolBuild() || !Editor::checkActiveLoadDone())
+   {
+      if (Canvas.getContent() != PlayGui.getId())
+      {
+         // For Rift
+         enableOculusVRDisplay(%this, true);
+         
+         Canvas.setContent(PlayGui);
+      }
+   }
+}
+```

@@ -11,3 +11,10 @@ moveMap.bind( oculusvr, ovr_sensorrotang0, OVRSensorRotEuler );
 ## Sensor Absolute Rotation Events ##
 
 The OculusVR sensor is able to detect an absolute rotation in space.  This means that the sensor that is included within the Oculus Rift head mounted display is able to report the head's absolute rotation.  While in theory the OculusVR SDK supports more than one sensor plugged into your computer, individual sensors are not currently available for testing.  Because of this Torque 3D currently only supports a single OculusVR sensor -- the one that is within the Oculus Rift.  This sensor is reported as index `0`.  It is straight forward to expand the number of supported sensors when and if Oculus starts offering individual ones for sale.
+
+Sensor rotation events may be reported in two different way: using an angled axis or using Euler angles.  One or both of these forms may be chosen and it depends on your own application.  To activate the angled axis form of rotation reporting you may set the TorqueScript global variable `$OculusVR::GenerateAngleAxisRotationEvents` to `true`.  To activate the Euler angle form, set the TorqueScript global variable `$OculusVR::GenerateEulerRotationEvents` to `true`.
+
+The following action map input events are available depending on how these two global variables are set:
+
+* `ovr_sensorrot0` - Absolute rotation in angled axis form (vector plus angle)
+* `ovr_sensorrotang0` - Absolute rotation in Euler angle form (about x, y, and z axis)

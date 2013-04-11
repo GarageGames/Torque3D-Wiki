@@ -97,3 +97,27 @@ function GameConnection::initialControlSet(%this)
    }
 }
 ```
+
+### Step 4: Setup Up The Action Map ###
+
+In order to pass along the Rift's head tracking to Torque 3D's input system we need to set up an action map.  When using the control scheme talked about above, we need to reference the `ExtendedMove` class' global input variables to pass along the data.  We also want to set the Rift's input events to generate Euler angles rather than an angled axis.  All of this may be done in `default.bind.cs`:
+
+```
+// ----------------------------------------------------------------------------
+// Oculus Rift
+// ----------------------------------------------------------------------------
+
+function OVRSensorRotEuler(%pitch, %roll, %yaw)
+{
+   //echo("Sensor euler: " @ %pitch SPC %roll SPC %yaw);
+   $mvRotZ0 = %yaw;
+   $mvRotX0 = %pitch;
+   $mvRotY0 = %roll;
+}
+
+$mvRotIsEuler0 = true;
+$OculusVR::GenerateAngleAxisRotationEvents = false;
+$OculusVR::GenerateEulerRotationEvents = true;
+moveMap.bind( oculusvr, ovr_sensorrotang0, OVRSensorRotEuler );
+```
+

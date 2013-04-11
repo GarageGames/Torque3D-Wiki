@@ -11,3 +11,30 @@ Fortunately, all of this is taken care of by Torque 3D with a little set up.
 There are a number of support functions in (core/scripts/client/oculusVR.cs)[https://github.com/GarageGames/Torque3D/blob/development/Templates/Full/game/core/scripts/client/oculusVR.cs] that help you get your application ready for displaying on the Oculus Rift.  We will be referencing these functions throughout this section.
 
 ### Step 1: Preparing the Canvas ###
+
+The Oculus Rift is treated as a separate monitor by your computer.  Often users will have this set up as an extension to their desktop, but it may also be set to mirror their desktop.  In either case, when you have your application go full screen you will want it appear on the Rift's display.  The way we do this is by informing Torque 3D that we would like to favour the graphics adapter that is attached to the Rift.
+
+Fortunately, we can just use the `pointCanvasToOculusVRDisplay()` function and it will take care of this set up.  We need to call this function just before the *Canvas* (the main application window) is created.  We do this by adding the function to the `createCanvas()` function in `main.cs`:
+
+```
+function createCanvas(%windowTitle)
+{
+   if ($isDedicated)
+   {
+      GFXInit::createNullDevice();
+      return true;
+   }
+
+   // For Rift
+   pointCanvasToOculusVRDisplay();
+   
+   // Create the Canvas
+   %foo = new GuiCanvas(Canvas);
+   
+   // Set the window title
+   if (isObject(Canvas))
+      Canvas.setWindowTitle(getEngineName() @ " - " @ $appName);
+   
+   return true;
+}
+```

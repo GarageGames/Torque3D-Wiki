@@ -1,0 +1,1 @@
+The [Oculus Rift](www.oculusvr.com) combines a head mounted display with a sensor that tracks your head's absolute rotation.  With commit [de7a72d82a](https://github.com/GarageGames/Torque3D/commit/de7a72d82ab80af1e17edebe7c0b9d25a728cace) the *development* branch now has preliminary support for this device.

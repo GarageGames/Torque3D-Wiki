@@ -27,9 +27,10 @@ In addition to GitHub we also have a couple of pre-packaged files for you to dow
 * [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)
 * [Compiling Torque 3D on Linux](wiki/Compiling-Torque-3D-on-Linux)
 
-### New Input Device Support
+### New Device Support
 * [Leap Motion Controller](wiki/Leap-Motion)
 * [Razer Hydra Controller](wiki/Razer-Hydra)
+* [Oculus Rift Head Mounted Display](wiki/Oculus-Rift)
 * [ExtendedMove Class](wiki/ExtendedMove-Class)
 
 ### Getting Help

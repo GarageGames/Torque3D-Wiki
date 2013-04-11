@@ -42,3 +42,15 @@ $OculusVR::GenerateEulerRotationEvents = true;
 moveMap.bind( oculusvr, ovr_sensorrotang0, OVRSensorRotEuler );
 ```
 
+## Sensor as Thumb Stick Input Events ##
+
+Torque 3D allows an OculusVR sensor to be used like a gamepad thumb stick.  Imagine that a thumb stick is coming out of the top of the sensor when in a neutral rotation and you move it by tilting the sensor.
+
+To activate these thumb stick input events we set the `$OculusVR::GenerateRotationAsAxisEvents` global TorqueScript variable to `true`.  With that variable set the following action map input events are available:
+
+* `ovr_sensorrotaxisx0` - thumb stick like x-axis motion in the range of -1.0 to 1.0
+* `ovr_sensorrotaxisy0` - thumb stick like y-axis motion in the range of -1.0 to 1.0
+
+Internally, these x and y axis values are normalized to ensure the length of their vector is never more than 1, just like a real thumb stick.
+
+In order to calculate the -1.0 to 1.0 range, the tilt of the sensor with respect to a vector pointing straight up (technically this vector is normal to the plane of the sensor's neutral rotation) is used.  When this sensor to up vector angle reaches the `$OculusVR::MaximumAxisAngle` global script variable value (the default is 25 degrees) then the virtual thumb stick is considered all the way over.  Adjusting `$OculusVR::MaximumAxisAngle` for your application determines how far over the user must tilt their sensor for a 100% value.

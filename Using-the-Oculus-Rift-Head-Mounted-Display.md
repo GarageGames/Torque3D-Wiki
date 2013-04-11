@@ -66,3 +66,34 @@ function GameConnection::initialControlSet(%this)
    }
 }
 ```
+
+### Step 3: Setup a Control Scheme ###
+
+A control scheme is something new for Torque 3D and is something you set on the *GameConnection* at either the client or server.  This tells any game objects that the *GameConnection* controls what to expect for input events and how to make use of them.  For the Rift we need to turn on an absolute rotation control scheme (which also required using the `ExtendedMove` class).
+
+Often we want to also add the mouse or gamepad relative rotation to that obtained from the Rift's head tracker.  This allows for a user to rotate all the way around in-game without having to turn all the way around in the chair or while standing.
+
+To modify the control scheme for a *GameConnection* we need to call its `setControlSchemeParameters()` method.  Fortunately, we can also use the `setStandardOculusVRControlScheme()` helper function which sets up for Rift head tracking and heading input from the mouse or gamepad.  You can call this at any time but a convienent place is during `GameConnection::initialControlSet()` right after `enableOculusVRDisplay()`:
+
+```
+function GameConnection::initialControlSet(%this)
+{
+   echo ("*** Initial Control Object");
+
+   // The first control object has been set by the server
+   // and we are now ready to go.
+   
+   // first check if the editor is active
+   if (!isToolBuild() || !Editor::checkActiveLoadDone())
+   {
+      if (Canvas.getContent() != PlayGui.getId())
+      {
+         // For Rift
+         enableOculusVRDisplay(%this, true);
+         setStandardOculusVRControlScheme(%this);
+         
+         Canvas.setContent(PlayGui);
+      }
+   }
+}
+```

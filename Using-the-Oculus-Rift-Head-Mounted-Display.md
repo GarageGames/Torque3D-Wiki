@@ -121,3 +121,14 @@ $OculusVR::GenerateEulerRotationEvents = true;
 moveMap.bind( oculusvr, ovr_sensorrotang0, OVRSensorRotEuler );
 ```
 
+### Step 5: Player and Camera Banking ###
+
+You'll want to have the *Player* and *Camera* instances take the Rift's bank rotation into account for the best experience.  To do so you'll want to add to your *PlayerData* and *CameraData* datablock instances the `cameraCanBank` property and set it to true.
+
+```
+cameraCanBank = true;
+```
+
+### Step 6: Remove Unused HUD Elements ###
+
+There are a number of HUD elements that are part of the *PlayGui* GUI control.  These should all be removed when using the Rift.  This includes the chat display, and the reticle.

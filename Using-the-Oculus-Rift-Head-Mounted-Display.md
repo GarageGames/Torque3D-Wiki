@@ -8,7 +8,7 @@ Fortunately, all of this is taken care of by Torque 3D with a little set up.
 
 ## Setting Up Your Application ##
 
-There are a number of support functions in (core/scripts/client/oculusVR.cs)[https://github.com/GarageGames/Torque3D/blob/development/Templates/Full/game/core/scripts/client/oculusVR.cs] that help you get your application ready for displaying on the Oculus Rift.  We will be referencing these functions throughout this section.
+There are a number of support functions in [core/scripts/client/oculusVR.cs](https://github.com/GarageGames/Torque3D/blob/development/Templates/Full/game/core/scripts/client/oculusVR.cs) that help you get your application ready for displaying on the Oculus Rift.  We will be referencing these functions throughout this section.
 
 ### Step 1: Preparing the Canvas ###
 

@@ -78,7 +78,7 @@ else
 }
 ```
 
-All indentation aligns itself along one of the tab stops (columns 4, 7, 10, ..., see earlier section on Tabs for details).
+All indentation should align itself along one of the tab stops (columns 4, 7, 10, ..., see earlier section on Tabs for details).
 
 Single line statements after a `for`, `if`, or `while` statement must be on their own lines.  It makes it much easier to trace and debug when you can tell if the statement was executed.
 ```     

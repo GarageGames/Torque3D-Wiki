@@ -43,7 +43,7 @@ All files must begin with a File Header Comment that contains the copyright and 
 To prevent recursive inclusion, all header files (`filename.h`) have an `#ifndef` directive immediately following the File Header Comment, and a corresponding `#endif` directive as the last line of the header file.  The following example shows the proper format and nomenclature for a header file called `BaseClass.h`
 ```
 #ifndef _BASECLASS_H_
-#define BASECLASS_H_
+#define _BASECLASS_H_
  
 // rest of header file for baseclass.h
 

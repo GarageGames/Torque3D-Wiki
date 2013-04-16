@@ -36,3 +36,6 @@ To start using the *development* branch you will need to create your own fork of
 To pull changes from the GarageGames/Torque3D *development* branch into your developer fork: `git pull upstream development`
 
 To submit your changes back to the GarageGames/Torque3D *development* branch, use the **Pull Request** page from GitHub to make a request from your fork into the *development* branch.
+
+## Code style guidelines
+The [Code Style Guidelines](https://github.com/GarageGames/Torque3D/wiki/Code-Style-Guidelines) page is to be referred to in order to help maintain consistency throughout the Torque 3D codebase.

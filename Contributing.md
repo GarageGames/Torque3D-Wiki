@@ -4,6 +4,7 @@ Thank-you for wanting to contribute to Torque 3D!  Please see the following for 
 * [Steering Committee Charter](Steering-Committee-Charter)
 * [Announcing the New Torque 3D Steering Committee!](http://www.garagegames.com/community/blogs/view/21966)
 * [T3D Steering Committee Meeting Notes - 2012](http://www.garagegames.com/community/forums/viewthread/131875)
+* [T3D Steering Committee Meeting Notes - 2013](http://www.garagegames.com/community/forums/viewthread/132828)
 
 Open Source Software Agreement
 ------------------------------

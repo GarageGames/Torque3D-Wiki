@@ -15,6 +15,15 @@ The second addition to your `project.conf` file is a reference to the Torque 3D'
     includeModule( 'oculusVR' );
 ```
 
+The last step is optional but if you want to use Torque 3D's standard *Player* and *Camera* classes with the Rift then you should probably make this change.  In order to pass the Rift's head tracking information between the client and server (which exist internally even if running a single player game) you need to enable the *ExtendedMove* class.  This is done by setting the `$TORQUE_EXTENDED_MOVE` global variable to true:
+
+```
+// Set this to true to enable the ExtendedMove class.  This
+// allows the passing of absolute position and rotation input
+// device information from the client to the server.
+$TORQUE_EXTENDED_MOVE = true;
+```
+
 With these changes in place you may run your project's `generateProjects.bat` file to rebuild the various Visual Studio files.
 
 ### Example project.conf ###

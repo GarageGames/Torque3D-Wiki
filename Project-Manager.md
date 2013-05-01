@@ -1,4 +1,8 @@
 The Torque 3D *Project Manager* is an optional utility that helps you create new projects based on Torque 3D Templates as well as manage existing projects.
-# Where to Find the Project Manager
 
-# Create a New Project From a Template
+## Where to Find the Project Manager
+The *Project Manager* may be downloaded from here: ???  Just follow the instructions in its *ReadMe* file on where to install it.
+
+If you wish to compile from the *Project Manager* source code head over to its repository: [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager)  It uses [Qt 4.8.x](http://qt-project.org/downloads) for its interface so you will need to obtain that first.
+
+## Create a New Project From a Template

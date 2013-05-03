@@ -26,10 +26,13 @@ This opens the *Project Modules* window.
 
 ![Project Modules window](images/ProjectManager/2-0-ChooseModules.jpg)
 
-From this window you select which modules you want to include and click on the *OK* button.  Please see the *Project Modules* section below for more information on using this window.
+From this window you select which modules you want to include and click on the *OK* button.  Please see the **Using the Project Modules Windows** section below for more information on using this window.
 
 With your new project now all set up you click on the *Create* button.  A new window will open informing you of the project creation progress which includes copying the files from the chosen *Template*, configuring all of the project's files, and generating the project's solution for compiling.  Your project is now ready to be turned into your game!
 
+## Modifying an Existing Project
+
+## Using the Project Modules Window
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  

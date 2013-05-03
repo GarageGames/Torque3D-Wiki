@@ -127,7 +127,9 @@ Here are some examples:
 </entries>
 ```
 
-If you wanted to add your own optional modules you may add them to the `<entry type="modules">` section.
+If you wanted to add your own optional modules you may add them to the `<entry type="modules">` section.  Just follow the same pattern as with the other modules there.  And if your module requires a variable to point to a directory then just include the `path` attribute with its name.
+
+Behind the scenes all the *Project Manager* is doing is modifying your project's `project.conf` file just as you would manually do.
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  

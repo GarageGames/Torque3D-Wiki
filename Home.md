@@ -12,7 +12,7 @@
 * Torque 3D [main repository](https://github.com/GarageGames/Torque3D)
 * TorqueScript and offline editor documentation is in the [Torque3D-Documentation](https://github.com/GarageGames/Torque3D-Documentation) GitHub repo.
 * Online editor and TorqueScript documentation is available on the GarageGames web site's [Torque 3D Documentation](http://www.garagegames.com/documentation/torque-3d) section.
-* Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.  Directions on how to use it and download a pre-compiled version: [Wiki Page](Project-Manager)
+* Project Manager is in the [Torque3D-ProjectManager](https://github.com/GarageGames/Torque3D-ProjectManager) GitHub repo.  Directions on how to use it and download a pre-compiled version: [Wiki Page](wiki/Project-Manager)
 * GarageGames [Store](http://www.garagegames.com/products)
 * GarageGames [Professional Services](http://services.garagegames.com/)
 
@@ -23,7 +23,7 @@ In addition to GitHub we also have a couple of pre-packaged files for you to dow
 * [Torque 3D Project Manager v1.1](http://mit.garagegames.com/T3DProjectManager-1.1.zip) on its own for use in your T3D forks.
 
 ### Working On Your Project
-* [Using the Project Manager](Project-Manager)
+* [Using the Project Manager](wiki/Project-Manager)
 * [Creating a New Project Based on a Template](wiki/Creating-a-New-Project-Based-on-a-Template)
 * [Compiling Torque 3D on Windows](wiki/Compiling-Torque-3D-on-Windows)
 * [Compiling Torque 3D on Linux](wiki/Compiling-Torque-3D-on-Linux)

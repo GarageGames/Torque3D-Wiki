@@ -69,6 +69,8 @@ Some modules require additional information from the user such as a path to a 3r
 ### Regenerate Button
 If you opened the *Project Modules* window from the *Create a New Project* window then you will have an *OK* button at the bottom of the window.  However, if you came here from the main *Project Manager* window using the *Modules* button, there will be a *Regenerate* button at the bottom.  Clicking on this button will automatically regenerate your project's solution files so you may recompile your project.  Before clicking on this button be sure to close your solution in Visual Studio.
 
+**NOTE: Prior to changing any modules, be sure to close your project's solution in Visual Studio**
+
 ## Extending the Module List
 The *Project Manager* module list is defined in the *projects.xml* file that is included with the *Project Manager*.  Here is what the file looks like as of *Project Manager 2.0*:
 

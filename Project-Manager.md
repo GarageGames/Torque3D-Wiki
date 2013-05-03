@@ -30,7 +30,18 @@ From this window you select which modules you want to include and click on the *
 
 With your new project now all set up you click on the *Create* button.  A new window will open informing you of the project creation progress which includes copying the files from the chosen *Template*, configuring all of the project's files, and generating the project's solution for compiling.  Your project is now ready to be turned into your game!
 
-## Modifying an Existing Project
+## Modifying an Existing Project's Modules
+You may change which optional modules are compiled into your project at any time.  This is done from the main *Project Manager* window by first selecting your project and then clicking on the *Modules* button.
+
+![Modules button](images/ProjectManager/2-0-ModulesButton.jpg)
+
+**NOTE: Prior to changing any modules, be sure to close your project's solution in Visual Studio**
+
+This will open the *Project Modules* window.  From here you may make changes to which modules or move class will be used by your project.
+
+![Choose Modules window](images/ProjectManager/2-0-ChooseModulesExisting.jpg)
+
+After you have made your changes you click on the *Regenerate* button.  This will automatically regenerate your project's solution files, and your project may be recompiled.  For more information on using the *Project Modules* window please see the next section.
 
 ## Using the Project Modules Window
 

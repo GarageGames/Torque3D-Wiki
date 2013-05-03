@@ -37,13 +37,26 @@ You may change which optional modules are compiled into your project at any time
 
 **NOTE: Prior to changing any modules, be sure to close your project's solution in Visual Studio**
 
-This will open the *Project Modules* window.  From here you may make changes to which modules or move class will be used by your project.
+This will open the *Project Modules* window.  From here you may make changes to which modules or *Move* class will be used by your project.
 
 ![Choose Modules window](images/ProjectManager/2-0-ChooseModulesExisting.jpg)
 
 After you have made your changes you click on the *Regenerate* button.  This will automatically regenerate your project's solution files, and your project may be recompiled.  For more information on using the *Project Modules* window please see the next section.
 
 ## Using the Project Modules Window
+The *Project Modules* window is divided into two sections.  The top section allows you to choose the type of *Move* class and networking that will be used.
+
+![Move Classes and Networking](images/ProjectManager/2-0-MoveClasses.jpg)
+
+The *Standard Move Class* is what the majority of games will use.  This allows sending of a player's movements (such as from mouse, keyboard or joystick) to the server for the object they are controlling.  This also provides the standard tick processing for the server's network traffic.
+
+The *HIFI Networking* choice operates the same as the *Standard Move Class* except that the server's network processing is no longer bunched together per tick.  Instead the networked movement process happens more often and is intended for high speed objects that may collide together.  This mode was intended to be used by racing games, for example.  Unfortunately, this mode has not received a lot of attention and may require some additional work to use.
+
+The *ExtendedMove* choice enables an extended version of the standard *Move* class.  This allows for the sending of absolute position and rotation values to the game's server.  This is very useful when dealing with input devices that support his type of data, such as the *Leap Motion*, *Razer Hydra* and *Oculus Rift*.  Please see the [ExtendedMove Page](ExtendedMove-Class) for more information, as well as the pages for the specific input device you are interested in.
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  
+[ExtendedMove Page](ExtendedMove-Class)  
+[Leap Motion Controller Page](Leap-Motion)  
+[Razer Hydra Controller Page](Razer-Hydra)  
+[Oculus Rift Page](Oculus-Rift)  

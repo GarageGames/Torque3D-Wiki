@@ -44,7 +44,10 @@ This will open the *Project Modules* window.  From here you may make changes to 
 After you have made your changes you click on the *Regenerate* button.  This will automatically regenerate your project's solution files, and your project may be recompiled.  For more information on using the *Project Modules* window please see the next section.
 
 ## Using the Project Modules Window
-The *Project Modules* window is divided into two sections.  The top section allows you to choose the type of *Move* class and networking that will be used.
+The *Project Modules* window is divided into two sections.
+
+### Move Class and Networking
+The top section allows you to choose the type of *Move* class and networking that will be used.
 
 ![Move Classes and Networking](images/ProjectManager/2-0-MoveClasses.jpg)
 
@@ -53,6 +56,20 @@ The *Standard Move Class* is what the majority of games will use.  This allows s
 The *HIFI Networking* choice operates the same as the *Standard Move Class* except that the server's network processing is no longer bunched together per tick.  Instead the networked movement process happens more often and is intended for high speed objects that may collide together.  This mode was intended to be used by racing games, for example.  Unfortunately, this mode has not received a lot of attention and may require some additional work to use.
 
 The *ExtendedMove* choice enables an extended version of the standard *Move* class.  This allows for the sending of absolute position and rotation values to the game's server.  This is very useful when dealing with input devices that support his type of data, such as the *Leap Motion*, *Razer Hydra* and *Oculus Rift*.  Please see the [ExtendedMove Page](ExtendedMove-Class) for more information, as well as the pages for the specific input device you are interested in.
+
+### Modules
+The middle section is where you may choose the modules that will be compiled into your project.
+
+![Modules Section](images/ProjectManager/2-0-ModulesSection.jpg)
+
+Modules may either be part of a group where one of them must be selected (such as the *Physics Library* group) or standalone with a checkbox to choose the module.
+
+Some modules require additional information from the user such as a path to a 3rd party SDK.  An example of this is the *Razer Hydra* controller in the image above.  If that module is chosen then you need to provide a path to the SDK (which is the *SixenseSDK_062612* directory as of this writing).  You may either manually enter the path into the text field, or click on the button beside the text field to choose a directory.
+
+### Regenerate Button
+If you opened the *Project Modules* window from the *Create a New Project* window then you will have an *OK* button at the bottom of the window.  However, if you came here from the main *Project Manager* window using the *Modules* button, there will be a *Regenerate* button at the bottom.  Clicking on this button will automatically regenerate your project's solution files so you may recompile your project.  Before clicking on this button be sure to close your solution in Visual Studio.
+
+## Extending the Module List
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  

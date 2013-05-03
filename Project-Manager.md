@@ -18,7 +18,9 @@ This will open the *Create a New Project* window.
 
 ![Choose a new template](images/ProjectManager/2-0-ChooseNewTemplate.jpg)
 
-From here you may give your project a new and choose which *Template* will be copied to your project.
+From here you may give your project a new name and choose which *Template* will be copied to your project.  Torque 3D is also made up of a number of optional modules that may be compiled into the code base.  These modules may determine which physics library will be used, or that a particular input device will be supported.  To choose which modules will be included with your project you click on the *Choose Modules* button.
+
+![Choose Modules button](images/ProjectManager/2-0-ChooseModulesButton.jpg)
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  

@@ -47,7 +47,7 @@ After you have made your changes you click on the *Regenerate* button.  This wil
 The *Project Modules* window is divided into two sections.
 
 ### Move Class and Networking
-The top section allows you to choose the type of *Move* class and networking that will be used.
+The top section allows you to choose the type of `Move` class and networking that will be used.
 
 ![Move Classes and Networking](images/ProjectManager/2-0-MoveClasses.jpg)
 
@@ -55,7 +55,7 @@ The *Standard Move Class* is what the majority of games will use.  This allows s
 
 The *HIFI Networking* choice operates the same as the *Standard Move Class* except that the server's network processing is no longer bunched together per tick.  Instead the networked movement process happens more often and is intended for high speed objects that may collide together.  This mode was intended to be used by racing games, for example.  Unfortunately, this mode has not received a lot of attention and may require some additional work to use.
 
-The *ExtendedMove* choice enables an extended version of the standard *Move* class.  This allows for the sending of absolute position and rotation values to the game's server.  This is very useful when dealing with input devices that support his type of data, such as the *Leap Motion*, *Razer Hydra* and *Oculus Rift*.  Please see the [ExtendedMove Page](ExtendedMove-Class) for more information, as well as the pages for the specific input device you are interested in.
+The *ExtendedMove* choice enables an extended version of the standard `Move` class.  This allows for the sending of absolute position and rotation values to the game's server.  This is very useful when dealing with input devices that support his type of data, such as the *Leap Motion*, *Razer Hydra* and *Oculus Rift*.  Please see the [ExtendedMove Page](ExtendedMove-Class) for more information, as well as the pages for the specific input device you are interested in.
 
 ### Modules
 The middle section is where you may choose the modules that will be compiled into your project.
@@ -70,6 +70,64 @@ Some modules require additional information from the user such as a path to a 3r
 If you opened the *Project Modules* window from the *Create a New Project* window then you will have an *OK* button at the bottom of the window.  However, if you came here from the main *Project Manager* window using the *Modules* button, there will be a *Regenerate* button at the bottom.  Clicking on this button will automatically regenerate your project's solution files so you may recompile your project.  Before clicking on this button be sure to close your solution in Visual Studio.
 
 ## Extending the Module List
+The *Project Manager* module list is defined in the *projects.xml* file that is included with the *Project Manager*.  Here is what the file looks like as of *Project Manager 2.0*:
+
+```
+<!-- World Builder Launcher Project Entries
+
+Entry Attribute Descriptions
+
+'type'
+projectDirectory  = Assumes that one directory down is the project, and inside is the executable
+file              = Execute the file directly
+
+'path'
+Path to the root project directory, or directly to the file (including file itself)
+
+'args'
+Any additional command line switches to be sent to the executable.
+
+Here are some examples:
+<entries>
+  <entry type="projectDirectory" path="Demos" args="">Demos</entry>
+  <entry type="projectDirectory" path="Genre Kits" args="">Genre Kits</entry>
+  <entry type="file" path="Demos/Stronghold/game/rStronghold.exe" args="">Stronghold Demo</entry>
+</entries>
+-->
+<entries>
+  <entry type="projectDirectory" path="My Projects" args="">My Projects</entry>
+  <entry type="projectDirectory" path="Games" args="">Games</entry>
+  <entry type="projectDirectory" path="Demos" args="">Demos</entry>
+  <entry type="projectDirectory" path="Examples" args="">Examples</entry>
+  <entry type="projectDirectory" path="Genre Kits" args="">Genre Kits</entry>
+  <entry type="templateDirectory" path="Templates" args="">Templates</entry>
+
+  <entry type="modules">
+    <module name="fmod">FMod Sound Engine</module>
+    <module name="leapMotion" path="$LEAPMOTION_SDK_PATH">Leap Motion Controller</module>
+    <module name="razerHydra" path="$RAZERHYDRA_SDK_PATH">Razer Hydra Controller</module>
+    <module name="oculusVR" path="$OCULUSVR_SDK_PATH">Oculus VR Devices</module>
+    <module name="webDeploy">Web Deployment</module>
+    <moduleGroup description="Physics Library">
+      <module name="" donotwrite="1" default="1">Torque Physics</module>
+      <module name="physX">PhysX Physics Library</module>
+      <module name="bullet">Bullet Physics Library</module>
+    </moduleGroup>
+  </entry>
+
+  <entry type="projectDefines">
+    <projectDefine name="TORQUE_MINIDUMP">Minidump Support</projectDefine>
+  </entry>
+
+  <entry type="moveClasses">
+    <moveClass name="" donotwrite="1" default="1">Standard Move Class</moveClass>
+    <moveClass name="$TORQUE_HIFI_NET">HIFI Networking</moveClass>
+    <moveClass name="$TORQUE_EXTENDED_MOVE">ExtendedMove</moveClass>
+  </entry>
+</entries>
+```
+
+If you wanted to add your own optional modules you may add them to the `<entry type="modules">` section.
 
 ## Related Pages
 [Project Manager Archive](Project-Manager-Archive)  

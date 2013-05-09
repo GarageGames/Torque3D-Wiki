@@ -7,6 +7,7 @@
 * [Steering Committee Charter](wiki/Steering-Committee-Charter)
 * [Blogs and Steering Committe Meeting Notes](wiki/Blogs-and-Meeting-Notes)
 * [Feature Requests](https://garagegames.uservoice.com) at UserVoice
+* [Demos Page](Demos)
 
 ### Getting Around
 * Torque 3D [main repository](https://github.com/GarageGames/Torque3D)

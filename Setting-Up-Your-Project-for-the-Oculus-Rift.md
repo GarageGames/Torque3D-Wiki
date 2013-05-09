@@ -24,7 +24,7 @@ The last step is optional but if you want to use Torque 3D's standard *Player* a
 $TORQUE_EXTENDED_MOVE = true;
 ```
 
-With these changes in place you may run your project's `generateProjects.bat` file to rebuild the various Visual Studio files.
+With these changes in place you may run your project's `generateProjects.bat` file to rebuild the various Visual Studio files, and then recompile your game.
 
 ### Example project.conf ###
 

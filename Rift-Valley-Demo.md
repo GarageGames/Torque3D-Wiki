@@ -7,3 +7,6 @@ Use the Oculus Rift and either the mouse and keyboard or a Xbox 360 gamepad to e
 To find out more about the *Rift Valley* demo please head over to the announcement blog:
 
 <http://www.garagegames.com/community/blogs/view/22249>
+
+#### Related Pages
+[Main Demo Page](Demos)

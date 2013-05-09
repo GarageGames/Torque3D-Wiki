@@ -1,8 +1,12 @@
-Before you can make use of the Oculus Rift in Torque 3D you will need to download the SDK from their [web site](http://developer.oculusvr.com) and extract it to a convenient directory.  To date, version 0.1.5 of the OculusVR SDK has been tested with Torque 3D.
+Before you can use the Oculus Rift with Torque 3D you will need to download the OculusVR SDK and then recompile your game to include the required source code.
+
+### Get the OculusVR SDK ###
+
+You can download the OculusVR SDK from their [web site](http://developer.oculusvr.com) and extract it to a convenient directory.  To date, version 0.1.5 of the OculusVR SDK has been tested with Torque 3D.
 
 ### Configure Your project.conf ###
 
-With the OculusVR SDK in place, you will need to modify your project's `buildFiles/config/project.conf` file in a text editor.  The first step is to let Torque 3D's Project Generator know where the OculusVR SDK is located.  The easiest way to do this is to add the `$OCULUSVR_SDK_PATH` global variable to the top of your `project.conf` file.  For example:
+With the OculusVR SDK in place, you will need to modify your project's `buildFiles/config/project.conf` file in a text editor.  This will allows us to recompile our game with the required source code.  The first step is to let Torque 3D's Project Generator know where the OculusVR SDK is located.  The easiest way to do this is to add the `$OCULUSVR_SDK_PATH` global variable to the top of your `project.conf` file.  For example:
 
 `$OCULUSVR_SDK_PATH = "C:\Users\dwyand_2\Downloads\OculusRift\ovr_sdk_0.1.5_src\OculusSDK";`
 

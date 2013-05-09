@@ -7,3 +7,6 @@ Use the Oculus Rift to see the aurora borealis of March 17, 2013 as recorded fro
 To find out more about the *Aurora Borealis* demo please head over to the announcement blog:
 
 <http://www.garagegames.com/community/blogs/view/22255>
+
+#### Related Pages
+[Main Demo Page](Demos)

@@ -23,7 +23,7 @@ In addition to GitHub we also have a couple of pre-packaged files for you to dow
 * [Complete Torque 3D 3.0 zip package](http://mit.garagegames.com/Torque3D-3-0.zip) with updated TorqueScript documentation, the *Project Manager*, and compiled versions of the templates.
 * [Torque 3D Project Manager v2.0](http://mit.garagegames.com/T3DProjectManager-2-0.zip) on its own for use in your T3D forks.
 
-If you're looking for an older release see the [Torque 3D Archive](Torque-3D-Archive)
+If you're looking for an older release see the [Torque 3D Archive](wiki/Torque-3D-Archive)
 
 ### Working On Your Project
 * [Using the Project Manager](wiki/Project-Manager)

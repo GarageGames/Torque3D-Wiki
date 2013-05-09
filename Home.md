@@ -7,7 +7,6 @@
 * [Steering Committee Charter](wiki/Steering-Committee-Charter)
 * [Blogs and Steering Committe Meeting Notes](wiki/Blogs-and-Meeting-Notes)
 * [Feature Requests](https://garagegames.uservoice.com) at UserVoice
-* [Demos Page](Demos)
 
 ### Getting Around
 * Torque 3D [main repository](https://github.com/GarageGames/Torque3D)
@@ -36,6 +35,13 @@ If you're looking for an older release see the [Torque 3D Archive](wiki/Torque-3
 * [Razer Hydra Controller](wiki/Razer-Hydra)
 * [Oculus Rift Head Mounted Display](wiki/Oculus-Rift)
 * [ExtendedMove Class](wiki/ExtendedMove-Class)
+
+### Torque 3D Demos
+These demos were put together by the T3D Steering Committee and may be found on the [Demos Page](Demos)
+* [Aurora Borealis](wiki/Aurora-Borealis-Demo)
+* [Rift Valley](wiki/Rift-Valley-Demo)
+* [Hydra Ryder](wiki/Hydra-Ryder-Demo)
+* [Marble Motion](wiki/Marble-Motion-Demo)
 
 ### Getting Help
 * [Beginner Forum](http://www.garagegames.com/community/forums/73)

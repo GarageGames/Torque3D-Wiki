@@ -1,9 +1,7 @@
 The templates included with Torque 3D provide a starting point for your project.  Once we have created our own project based on a template we may then compile an executable and begin work on our game.  The following templates are included in this version of Torque 3D:
 
 * Empty
-* Empty PhysX
 * Full
-* Full PhysX
 
 ### Using PhysX ###
 

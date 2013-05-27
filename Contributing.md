@@ -39,3 +39,6 @@ To submit your changes back to the GarageGames/Torque3D *development* branch, us
 
 ## Code style guidelines
 The [Code Style Guidelines](https://github.com/GarageGames/Torque3D/wiki/Code-Style-Guidelines) page is to be referred to in order to help maintain consistency throughout the Torque 3D codebase.
+
+## Community Contributions
+The [Intended Community Contribution](https://github.com/GarageGames/Torque3D/wiki/Intended-Community-Contribution) page is to be used help us know what an individual community member is working on with the intent of contributing to the Torque 3D MIT codebase.

@@ -36,4 +36,19 @@ Herein we maintain a list of what individual community members will be contribut
         <td>’Codecandy’ OS X work ported to T3D MIT with complete basic lighting support.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Linux platform support</td>
+        <td>Linux client basic lighting support.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>OBJ mesh file import support</td>
+        <td>Expand T3D's graphics pipeline to include loading in <i>.obj</i> files and converting them to DTS.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FBX file import support</td>
+        <td>Expand T3D's graphics pipeline to include loading in FBX files and converting them to DTS.</td>
+        <td></td>
+    </tr>
 </table>

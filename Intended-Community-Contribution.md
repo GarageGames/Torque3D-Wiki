@@ -208,4 +208,34 @@ Herein we maintain a list of what individual community members will be contribut
         <td>I have difficulties creating a normal map for the parallax effect, but searching for tutorials, I have found that some engines use a separate displacement map texture channel to achieve this. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269768-displacement-map-option-">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>XMLVM toolchain for cross compiling to .Net, iOS, Andoid and Java</td>
+        <td>XMLVM <a href="http://xmlvm.org/toolchain/">http://xmlvm.org/toolchain/</a> From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3347669-xmlvm-toolchain-for-cross-compiling-to-net-ios-">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>C# implemented</td>
+        <td>I know someone was working on this but I don't think it was ever established in full. It would be nice to be able to use code from other engines more effectively. Tutorials from other engines could then be used with tweaking where a tutorial is not available yet for Torque. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270114-c-implemented">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Core Engine refactor with Core Plus modules</td>
+        <td>I believe T3D would be well served to adapt a modular approach to distribution consisting of "Core" template and "Core Plus" templates that provide genre specific functionality for developers who would otherwise be unable to refit a general purpose engine into application for their specific genre. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266297-core-engine-refactor-with-core-plus-modules">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Forest Editor to support multiple forest objects per mission</td>
+        <td>Currently forest editor supports only one forest object per mission "TheForest". My request would be a modification so that multiple forest objects could exist in a mission, with each object linked to a specific brush. This would provide a method to create multiple forests in a mission and modify or remove each individually without disturbing the others. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270533-forest-editor-to-support-multiple-forest-objects-p">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Light animation for the emissive material</td>
+        <td>Give the emissive material some animation properties like those from the Light Animation on light entities. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3878053-light-animation-for-the-emissive-material">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Terrain Streaming or Paging</td>
+        <td>From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3953097-terrain-streaming-or-paging">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

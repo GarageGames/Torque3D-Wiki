@@ -92,4 +92,19 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Change the terrain system so that there are better and more modern tools like those in UDK. This included better blending between textures, and the ability to use diffuse, normal, spec, and other textures together. Also, add some tools to the terrain editor, like the ability to make ramps. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269267-update-the-terrain-system">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>DX11 Support</td>
+        <td>Update much of the rendering to support DX11 and some of it's features. Obviously this is a big task, but keeping up on DirectX versions I think is important to stay current. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3311334-dx11-support">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Inverse Kinematics for character animation</td>
+        <td>Other engines have used this for a while to place characters' feet on the ground. I'd love to be able to use it to animate things like holding weapons as well. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266894-inverse-kinematics-for-character-animation">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GUI system Overhaul for Torque 3D</td>
+        <td><a href="http://blogs.unity3d.com/2012/06/29/the-new-gui/">http://blogs.unity3d.com/2012/06/29/the-new-gui/</a> The Torque 3D GUI System needs some work. Maybe something similar to Scale form or Awesomium but built into T3D. Something that can call Adobe Flash files or the open source equivalent. Maybe something like Unity3D's New GUI? Either way the GUI system needs an update. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266596-gui-system-overhaul-for-torque-3d">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

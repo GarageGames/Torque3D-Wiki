@@ -62,6 +62,11 @@ Herein we maintain a list of what individual community members will be contribut
 ### Community Feature Requests
 <table>
     <tr>
+        <td><b>Item</b></td>
+        <td><b>Description</b></td>
+        <td><b>Community Member(s)</b></td>
+    </tr>
+    <tr>
         <td>Multiple CPU Core Usage (for skinned meshes especially)</td>
         <td>T3D still utilizes only a single CPU core, and skinned meshes have to be written/animated/rendered/exist/whatever on it. Who doesn't have at least a dual core machine these days? From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268362-multiple-cpu-core-usage-for-skinned-meshes-especi">feature request</a>.</td>
         <td></td>

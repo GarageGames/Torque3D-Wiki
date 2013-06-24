@@ -38,7 +38,7 @@ Herein we maintain a list of what individual community members will be contribut
     </tr>
     <tr>
         <td>Linux platform support</td>
-        <td>Linux client basic lighting support.</td>
+        <td>Linux client basic lighting support. Also talked about in this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266405-add-full-support-for-linux-operating-systems-to-to">feature request</a></td>
         <td></td>
     </tr>
     <tr>

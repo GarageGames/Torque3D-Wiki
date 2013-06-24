@@ -188,4 +188,24 @@ Herein we maintain a list of what individual community members will be contribut
         <td>The FPS tutorial jumps straight from section 1 (setup) to section 2 (test torque 3d) without addressing the need to compile it. This may seem obvious to those well versed in C++ based projects, but the reality is that many people are not coming from that background, and want to just muddle through that part to get to the asset creation and scripting. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3573196-steps-in-the-fps-tutorial-for-how-to-compile-torqu">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Upgraded sketch tool</td>
+        <td>Since the old way of level editing with tools like constructor and the old format of models, where you could have a tiling texturing is gone, an upgrade of the sketch tool to replace this lost function may be nice. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3929207-upgraded-sketch-tool">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>PhysX vehicle</td>
+        <td>Implement a PhysX vehicle or make current vehicles be able to collide with PhysX actors. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270970-physx-vehicle">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>More Full Featured templates/Starter kits</td>
+        <td>I feel that it would do the community good if the game engine would come with more full featured templates/starter kits. the torque game engine is prolly one of the better game engines out there, when it comes to the most bang for your buck.(expecially now that it is free.) however, the FPS Tutorial, although it does give you a starting point. it lacks some of the key features that is needed to compete with todays market. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3289976-more-full-featured-templates-starter-kits">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Displacement map option</td>
+        <td>I have difficulties creating a normal map for the parallax effect, but searching for tutorials, I have found that some engines use a separate displacement map texture channel to achieve this. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269768-displacement-map-option-">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

@@ -16,4 +16,9 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Turn on compiler warnings and resolve them.  This could be broken up into smaller items.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Update to the latest Bullet library version</td>
+        <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start up.  Could look into 3.x integration.</td>
+        <td></td>
+    </tr>
 </table>

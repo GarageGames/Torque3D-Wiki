@@ -53,7 +53,7 @@ Herein we maintain a list of what individual community members will be contribut
     </tr>
     <tr>
         <td>Image file support</td>
-        <td>Expand T3D's graphics pipeline by including support for new image file formats (such as Photoshop). This would be broken up into one task per image format.</td>
+        <td>Expand T3D's graphics pipeline by including support for new image file formats (such as Photoshop). This could be broken up into one task per image format.</td>
         <td></td>
     </tr>
 </table>

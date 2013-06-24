@@ -112,4 +112,14 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Torsion is currently old and buggy, but there is no alternative to it if you need a script debugger. Either create a new TorqueScript IDE, or modify existing plugins/IDEs to include some of the more advanced functionality of Torsion. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269278-create-an-open-source-alternative-to-torsion">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Global Illumination</td>
+        <td>Built in GUI for Global Illumination will greatly increase the quality of the final game-product. Production time is saved by not having to swap between 3rd-Party programs to bake level environment maps. Intuitive (layers of control) for light, shadow, atlas maps. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3267036-global-illumination">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Export to mobile platforms</td>
+        <td>Torque3D should be able to deploy to Android, WM8, iOS and other platforms the same way Unity3D or other engines. Even if this is done through an embedded VM layer. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3291079-export-to-mobile-platforms">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

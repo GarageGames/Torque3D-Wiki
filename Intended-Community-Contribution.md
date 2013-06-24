@@ -33,12 +33,12 @@ Herein we maintain a list of what individual community members will be contribut
     </tr>
     <tr>
         <td>OSX platform support</td>
-        <td>’Codecandy’ OS X work ported to T3D MIT with complete basic lighting support.</td>
+        <td>’Codecandy’ OS X work ported to T3D MIT with complete basic lighting support. Also talked about in this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266408-add-full-support-for-mac-os-x-to-torque-3d">feature request</a>.</td>
         <td></td>
     </tr>
     <tr>
         <td>Linux platform support</td>
-        <td>Linux client basic lighting support. Also talked about in this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266405-add-full-support-for-linux-operating-systems-to-to">feature request</a></td>
+        <td>Linux client basic lighting support. Also talked about in this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266405-add-full-support-for-linux-operating-systems-to-to">feature request</a>.</td>
         <td></td>
     </tr>
     <tr>
@@ -59,6 +59,16 @@ Herein we maintain a list of what individual community members will be contribut
     <tr>
         <td>Multiple CPU Core Usage (for skinned meshes especially)</td>
         <td>T3D still utilizes only a single CPU core, and skinned meshes have to be written/animated/rendered/exist/whatever on it. Who doesn't have at least a dual core machine these days? From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268362-multiple-cpu-core-usage-for-skinned-meshes-especi">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>A new scripting language</td>
+        <td>This would be in addition to TorqueScript, but for a more mainstream language like Lua or Javascript. Bonus points if it's written in such a way that additional languages could be added later. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266218-a-new-scripting-language">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Shader Composer / Material Editor</td>
+        <td>Some kind of Node-based Material Editor, would be nice. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266379-shader-composer-material-editor">feature request</a>.</td>
         <td></td>
     </tr>
 </table>

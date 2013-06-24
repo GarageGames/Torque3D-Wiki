@@ -1,18 +1,7 @@
 Herein we maintain a list of what individual community members will be contributing toward the Torque 3D MIT codebase.
 
 ### Community Member Contributions
-<table>
-    <tr>
-        <td><b>Item</b></td>
-        <td><b>Description</b></td>
-        <td><b>Community Member(s)</b></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+Please let the Steering Committee know about any contributions you would like to make.
 
 ### Steering Committee Suggestions
 <table>

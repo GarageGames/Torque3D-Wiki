@@ -173,4 +173,19 @@ Herein we maintain a list of what individual community members will be contribut
         <td>A web page streaming technology like Unity's that allows the game to be played through web page but not require the whole game package to be downloaded. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266475-play-through-web-page-with-streaming-capabilities">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Use a Plug-in Architecture so all the Add-ons could work together</td>
+        <td>Curenattly each add-on is patching manually or automatically the stock engine yet once you want more than one add-on at the same time you need to merge it from two add ons pattching two stock engines a task not suted for everyone. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3347683-use-a-plug-in-architecture-so-all-the-add-ons-coul">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Support for Intel Graphics Cards</td>
+        <td>Most game engines support Intel cards for casual and indie games... and for games with graphics like cartoon, etc. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3321155-support-for-intel-graphics-cards">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Steps in the FPS Tutorial for how to compile Torque3D for the first time</td>
+        <td>The FPS tutorial jumps straight from section 1 (setup) to section 2 (test torque 3d) without addressing the need to compile it. This may seem obvious to those well versed in C++ based projects, but the reality is that many people are not coming from that background, and want to just muddle through that part to get to the asset creation and scripting. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3573196-steps-in-the-fps-tutorial-for-how-to-compile-torqu">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

@@ -2,9 +2,9 @@ Herein we maintain a list of what individual community members will be contribut
 
 <table>
     <tr>
-        <td>Item</td>
-        <td>Description</td>
-        <td>Community Members</td>
+        <td><b>Item</b></td>
+        <td><b>Description</b></td>
+        <td><b>Community Member(s)</b></td>
     </tr>
     <tr>
         <td>Cppcheck static code analysis</td>

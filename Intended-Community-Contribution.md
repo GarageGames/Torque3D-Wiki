@@ -1,6 +1,6 @@
 Herein we maintain a list of what individual community members will be contributing toward the Torque 3D MIT codebase.
 
-Steering Committee Suggestions
+### Steering Committee Suggestions
 <table>
     <tr>
         <td><b>Item</b></td>
@@ -59,7 +59,7 @@ Steering Committee Suggestions
     </tr>
 </table>
 
-Community Feature Requests
+### Community Feature Requests
 <table>
     <tr>
         <td>Multiple CPU Core Usage (for skinned meshes especially)</td>

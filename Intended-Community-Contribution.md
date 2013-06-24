@@ -143,4 +143,14 @@ Herein we maintain a list of what individual community members will be contribut
         <td>A way to track or identify incoming damage to a location. It can be used with tanks, flight sims, big stompy robots, armored locations and tracking damage to limbs. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270366-hitboxes-aka-locational-damage">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>64 bit build</td>
+        <td>It seems like a 64 bit build target for Windows is something that's long overdue as most people have machines with 8Gb of RAM or more these days. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3280647-64-bit-build">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CgFX Shader Language integration</td>
+        <td>From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266386-cgfx-shader-language-integration">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

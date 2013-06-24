@@ -238,4 +238,29 @@ Herein we maintain a list of what individual community members will be contribut
         <td>From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3953097-terrain-streaming-or-paging">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Rim Lighting Shader</td>
+        <td>Rim Lighting as a Post-processing effects. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3289287-rim-lighting-shader">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Wind animation and collision support for groundcover objects</td>
+        <td>The groundcover tool is a fast and easy way to distribute a lot of items onto lots of terrain, saving work and performance, but at the moment it is mostly useless if you want to have authentic vegetation with wind effects, if you use the groundcover now, you will have forest items with wind animation and the groundcover objects will not have it, producing a non authentic environment also so missing collision support makes it useless for bigger or non-vegetation objects in general. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3998951-wind-animation-and-collision-support-for-groundcov">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>screenspace lightning</td>
+        <td>Full screenspace lightning. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269264-screenspace-lightning">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>In game cinametics</td>
+        <td>Add in game cinematics and its editor. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3933815-in-game-cinametics">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Seperate Sever from Client</td>
+        <td>Set up the Server code to build on it's own, or set a flag so that it's not compiled with the client. Best practice would be be to split the the client and server and have a toggle able network build process when compiling. Not every one wants to make a networked game. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3310458-seperate-sever-from-client">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

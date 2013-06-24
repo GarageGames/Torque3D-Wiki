@@ -122,4 +122,15 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Torque3D should be able to deploy to Android, WM8, iOS and other platforms the same way Unity3D or other engines. Even if this is done through an embedded VM layer. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3291079-export-to-mobile-platforms">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>3d skybox</td>
+        <td>Can be use to fake big epic scenes. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3336772-3d-skybox">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Animation Blending</td>
+        <td>Animation Blending for characters. There is already an opensource project that can help with this but i don't know if it's compatible with the MIT License. <a href="http://sourceforge.net/projects/tecnofreakanima/">http://sourceforge.net/projects/tecnofreakanima/</a>
+ From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268129-animation-blending">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

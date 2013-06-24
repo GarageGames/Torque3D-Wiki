@@ -107,4 +107,9 @@ Herein we maintain a list of what individual community members will be contribut
         <td><a href="http://blogs.unity3d.com/2012/06/29/the-new-gui/">http://blogs.unity3d.com/2012/06/29/the-new-gui/</a> The Torque 3D GUI System needs some work. Maybe something similar to Scale form or Awesomium but built into T3D. Something that can call Adobe Flash files or the open source equivalent. Maybe something like Unity3D's New GUI? Either way the GUI system needs an update. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266596-gui-system-overhaul-for-torque-3d">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Create an Open Source Alternative to Torsion</td>
+        <td>Torsion is currently old and buggy, but there is no alternative to it if you need a script debugger. Either create a new TorqueScript IDE, or modify existing plugins/IDEs to include some of the more advanced functionality of Torsion. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269278-create-an-open-source-alternative-to-torsion">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

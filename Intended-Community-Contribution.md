@@ -71,4 +71,15 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Some kind of Node-based Material Editor, would be nice. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266379-shader-composer-material-editor">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Open GL 4.x support for Torque3D</td>
+        <td>This would enable to port Torque 3D to other operating systems that are not dependent on direct3d. Operating systems such as Linux and Mac OSX. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266552-open-gl-4-x-support-for-torque3d">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>A system like kismet from unreal engine 3</td>
+        <td>For a quick way to test new ideas very easy. <a href="http://www.unrealengine.com/en/features/kismet/">http://www.unrealengine.com/en/features/kismet/</a>
+ From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266165-a-system-like-kismet-from-unreal-engine-3">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

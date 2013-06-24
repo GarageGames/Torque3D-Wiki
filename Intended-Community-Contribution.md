@@ -305,4 +305,40 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Basically an editor like mesh paint that lets you paint the vertex color in a mesh and shadergen hooked up to allow use of this. So for instance you could set diffuse0, diffuse1, diffuse2, diffuse3 in material and it would use diffuse0 like it does now but you could blend diffuse1,2,3 using red, green, and blue channels in the mesh paint tool. OF course if you only wanted to work with 2 textures you would just set diffuse0 and diffuse1 and use the red channel in the tool. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266502-an-unreal-mesh-paint-like-editor-hooked-into-shade">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Rig Design for Torque 3D</td>
+        <td>In the past, there was an image of the Torque Player "Blue Guy" and the Orc with rigs. These rigs had names that you would give them so that Torque and read. What i am requesting is not an in-game feature, but a feature on the website that will expose the different kinds of rigs that Torque3D can translate. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268094-rig-design-for-torque-3d">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>More efficient / intuitive handling of the editor</td>
+        <td>There are many little not very well optimized workflows in the Torque3D editor, like if you add an object to the scene the default alignment options should be snap to terrain and move on the horizontal axes and the object should snap to the mouse and if you press the mouse button the object gets placed. And if you click an object in the movement mode it gets automatically picket up and you are again in the snap to terrain horizontal movement. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3929874-more-efficient-intuitive-handling-of-the-editor">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Support for exporting game to the Flash platform</td>
+        <td>This is a request that came up in the topic on GarageGames. Flash was not mentioned specifically, but with Alchemy 2 it seems to be a more viable web option than WebGL at this time. Feel free to disagree! From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268645-support-for-exporting-game-to-the-flash-platform">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ai poses and ContactTimer Pack/Unpack update fix (already in resources)</td>
+        <td>Ai Poses exposed to console (still has a consoleMethod which should probably be updated to an EngineDefine) From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266659-ai-poses-and-contacttimer-pack-unpack-update-fix-">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Realistic Skin Shader</td>
+        <td>To replace or add the ability to apply a realistic skin shader to model. Similar to what is done in cryengine From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269246-realistic-skin-shader">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elevation mask for terrain-painting and new filling function</td>
+        <td>In other engines, for example cry-engine, there was a function, where you could have a elevation mask for terrain painting, for example to make sure your underwater terrain only gets painted under the sea level. Also there was a function where you could fill the whole terrain with this mask at one click, this is extremely effective, because it lets you paint the whole terrain in a few clicks, no matter how big it is.
+ From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3929274-elevation-mask-for-terrain-painting-and-new-fillin">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>More Simgroups/better managing (forest items, terrain materials...)</td>
+        <td>I noticed at the moment there is no simgroup function for forest items and terrain materials, since there are useful simgroups for other objects like mission objects and forest brushes, I would like to see them for the forest items and terrain materials also, because handling of hundreds of files in one unsorted list can get pretty complicated. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3998928-more-simgroups-better-managing-forest-items-terr">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

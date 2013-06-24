@@ -153,4 +153,24 @@ Herein we maintain a list of what individual community members will be contribut
         <td>From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266386-cgfx-shader-language-integration">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Multiple Viewports in World Editor</td>
+        <td>Torque3D v.1.2 currently uses only one camera viewport that may be toggled in the editor. This one view navigation method uses more mouse clicks and time on development. Like any other standard 3D package software, multiple viewports allow total user navigation & view control over objects and the world. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3351219-multiple-viewports-in-world-editor">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Advanced snapping options</td>
+        <td>A lot of games, especially modern ones use modular systems for building levels, so it is important to have proper snapping options in the game editor. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3929242-advanced-snapping-options">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Convert data serialization over to use TAML</td>
+        <td>One of the biggest dependencies on TorqueScript currently is the data serialization (datablocks, materials, etc). Migrating the data serialization to an scripting independent format (like TAML) would go a long way towards making the engine more flexible for use with other languages or being embedded as a framework. It would also pave the way for smarter asset packaging and asynchronous asset loading. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269229-convert-data-serialization-over-to-use-taml">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Play through web page, with streaming capabilities</td>
+        <td>A web page streaming technology like Unity's that allows the game to be played through web page but not require the whole game package to be downloaded. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266475-play-through-web-page-with-streaming-capabilities">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

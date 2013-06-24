@@ -341,4 +341,25 @@ Herein we maintain a list of what individual community members will be contribut
         <td>I noticed at the moment there is no simgroup function for forest items and terrain materials, since there are useful simgroups for other objects like mission objects and forest brushes, I would like to see them for the forest items and terrain materials also, because handling of hundreds of files in one unsorted list can get pretty complicated. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3998928-more-simgroups-better-managing-forest-items-terr">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Add placement of physicsForce objects to the World Editor</td>
+        <td>This object type is missing from the objects available to place via the editor, so we have to add them manually in the mission script file. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/4025560-add-placement-of-physicsforce-objects-to-the-world">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Bigger brushes</td>
+        <td>At the moment the limit of the brush size of the terrain paint brush is only 40, that is really small and with that it is almost impossible to paint huge terrains, so lift this restriction. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3929304-bigger-brushes">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Improved Color Picker</td>
+        <td>I rewrote the color picker recently to be quite a bit better. I submitted it as a resource here: <a href="http://www.garagegames.com/community/resources/view/21931">http://www.garagegames.com/community/resources/view/21931</a> And was going to fork the torque build and make a pull request but github for windows keeps crashing on me. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3262752-improved-color-picker">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Add new GuiBitmapStringCtrl that strings a number of images</td>
+        <td>Adds a new Gui Control to the engine that strings a number of images 
+together. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3262659-add-new-guibitmapstringctrl-that-strings-a-number-">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

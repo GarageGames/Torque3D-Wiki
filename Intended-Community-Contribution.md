@@ -60,7 +60,7 @@ Herein we maintain a list of what individual community members will be contribut
 </table>
 
 ### Community Feature Requests
-Many of these items do not show the entire description of the feature request.  Please click on the link to read the whole request.
+[Torque 3D Feature Request Page](https://garagegames.uservoice.com/forums/178972-torque-3d-mit) Many of these items do not show the entire description of the feature request.  Please click on the link to read the whole request.
 <table>
     <tr>
         <td><b>Item</b></td>

@@ -273,4 +273,31 @@ Herein we maintain a list of what individual community members will be contribut
         <td>Set up the Server code to build on it's own, or set a flag so that it's not compiled with the client. Best practice would be be to split the the client and server and have a toggle able network build process when compiling. Not every one wants to make a networked game. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3310458-seperate-sever-from-client">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>wetness PostFX and wetness custom material</td>
+        <td>It would be nice to finally get the wetness and precipitation added as an out-the-box feature. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269297-wetness-postfx-and-wetness-custom-material">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Add TorqueScript Prefab methods</td>
+        <td>As displayed here - would be a great addition to stock torque <a href="http://www.garagegames.com/community/resources/view/19259/1">http://www.garagegames.com/community/resources/view/19259/1</a>
+ From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3262747-add-torquescript-prefab-methods">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Phong Tessellation</td>
+        <td>I have found this and looks like it works without the need of DX 11 <a href="http://perso.telecom-paristech.fr/~boubek/papers/PhongTessellation/">http://perso.telecom-paristech.fr/~boubek/papers/PhongTessellation/</a>
+ From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266128-phong-tessellation">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Database: Simple and Complex</td>
+        <td>We need a simple database with basic save option for the base characters supplied. This will save ammo count, health, etc. Then this can feed into a complex version that will set the ground for a network based database that is in congruence with a system that most will agree on such as maybe SQL light with a tutorial on basic functions to get one started. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270518-database-simple-and-complex">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MVC Design Pattern (Component System?)</td>
+        <td>I am trying to determine if T3D already has this pattern or not. My conclusion is that the game objects are so tightly coupled with the input and output that I decided it does not follow the MVC pattern. Why use this pattern? Because if you want to write a game for Windows, Linux, iOS, XBox, PS3, Android, Flash, etc it would be really cool to only have to modify the View part. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3277249-mvc-design-pattern-component-system-">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

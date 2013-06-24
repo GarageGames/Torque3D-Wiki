@@ -82,4 +82,14 @@ Herein we maintain a list of what individual community members will be contribut
  From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266165-a-system-like-kismet-from-unreal-engine-3">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>AI System - Navgraph, planner, fuzzy state machine</td>
+        <td>Create a framework for a comprehensive AI system, provide Navgraph for terrain and interiors spaces. Design a component system where a planner, state machine or flocking system could be used to control the AI. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266445-ai-system-navgraph-planner-fuzzy-state-machine">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Update the Terrain System</td>
+        <td>Change the terrain system so that there are better and more modern tools like those in UDK. This included better blending between textures, and the ability to use diffuse, normal, spec, and other textures together. Also, add some tools to the terrain editor, like the ability to make ramps. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3269267-update-the-terrain-system">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

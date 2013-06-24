@@ -31,4 +31,9 @@ Herein we maintain a list of what individual community members will be contribut
         <td>The Master Server code was written for TGE and should be updated for T3D and included in the repository. This also requires the proper build files for at least Linux.</td>
         <td><a href="http://www.garagegames.com/account/profile/70027">smally</a></td>
     </tr>
+    <tr>
+        <td>OSX platform support</td>
+        <td>’Codecandy’ OS X work ported to T3D MIT with complete basic lighting support.</td>
+        <td></td>
+    </tr>
 </table>

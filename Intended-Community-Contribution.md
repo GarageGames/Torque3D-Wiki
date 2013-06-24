@@ -133,4 +133,14 @@ Herein we maintain a list of what individual community members will be contribut
  From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268129-animation-blending">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>Better support for MinGW compilers</td>
+        <td>I've been thrilled by the release of Torque 3D under MIT license! Since then I was trying to get the engine to compile under MinGW (GCC) compilers under windows, and so far the adapting was a success. It compiles, however it crashes at some point during some floating point operations. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3268908-better-support-for-mingw-compilers">feature request</a>.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>hitboxes aka locational damage</td>
+        <td>A way to track or identify incoming damage to a location. It can be used with tanks, flight sims, big stompy robots, armored locations and tracking damage to limbs. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3270366-hitboxes-aka-locational-damage">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

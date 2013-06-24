@@ -300,4 +300,9 @@ Herein we maintain a list of what individual community members will be contribut
         <td>I am trying to determine if T3D already has this pattern or not. My conclusion is that the game objects are so tightly coupled with the input and output that I decided it does not follow the MVC pattern. Why use this pattern? Because if you want to write a game for Windows, Linux, iOS, XBox, PS3, Android, Flash, etc it would be really cool to only have to modify the View part. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3277249-mvc-design-pattern-component-system-">feature request</a>.</td>
         <td></td>
     </tr>
+    <tr>
+        <td>An unreal mesh paint like editor hooked into shadergen</td>
+        <td>Basically an editor like mesh paint that lets you paint the vertex color in a mesh and shadergen hooked up to allow use of this. So for instance you could set diffuse0, diffuse1, diffuse2, diffuse3 in material and it would use diffuse0 like it does now but you could blend diffuse1,2,3 using red, green, and blue channels in the mesh paint tool. OF course if you only wanted to work with 2 textures you would just set diffuse0 and diffuse1 and use the red channel in the tool. From this <a href="https://garagegames.uservoice.com/forums/178972-torque-3d-mit/suggestions/3266502-an-unreal-mesh-paint-like-editor-hooked-into-shade">feature request</a>.</td>
+        <td></td>
+    </tr>
 </table>

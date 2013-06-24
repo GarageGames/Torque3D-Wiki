@@ -18,7 +18,12 @@ Herein we maintain a list of what individual community members will be contribut
     </tr>
     <tr>
         <td>Update to the latest Bullet library version</td>
-        <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start up.  Could look into 3.x integration.</td>
+        <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start with.  Could look into 3.x integration.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Update PhysX support to the latest 3.x version</td>
+        <td>Update Torque 3D's PhysX support for the latest <a href=https://developer.nvidia.com/physx-downloads">PhysX 3.x</a> version.</td>
         <td></td>
     </tr>
 </table>

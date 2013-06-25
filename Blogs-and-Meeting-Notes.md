@@ -15,5 +15,5 @@ A list of GarageGames blogs on the MIT license release of Torque 3D:
 * [GarageGames Starts IndieGoGo Campaign to Port Torque 3D to Linux](http://www.garagegames.com/community/blogs/view/22075)
 
 Steering Committee Meeting Notes:
-* [T3D Steering Committee Meeting Notes - 2012](http://www.garagegames.com/community/forums/viewthread/131875)
 * [T3D Steering Committee Meeting Notes - 2013](http://www.garagegames.com/community/forums/viewthread/132828)
+* [T3D Steering Committee Meeting Notes - 2012](http://www.garagegames.com/community/forums/viewthread/131875)

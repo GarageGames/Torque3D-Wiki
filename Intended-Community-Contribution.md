@@ -1,5 +1,6 @@
 Herein we maintain a list of what individual community members will be contributing toward the Torque 3D MIT codebase.
-
+   
+   
 ### Community Member Contributions
 Please let the Steering Committee know about any contributions you would like to make.
 <table>
@@ -14,7 +15,8 @@ Please let the Steering Committee know about any contributions you would like to
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
 </table>
-
+   
+   
 ### Steering Committee Suggestions
 <table>
     <tr>
@@ -73,7 +75,8 @@ Please let the Steering Committee know about any contributions you would like to
         <td></td>
     </tr>
 </table>
-
+   
+   
 ### Community Feature Requests
 [Torque 3D Feature Request Page](https://garagegames.uservoice.com/forums/178972-torque-3d-mit) Many of these items do not show the entire description of the feature request.  Please click on the link to read the whole request.
 <table>

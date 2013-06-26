@@ -2,6 +2,18 @@ Herein we maintain a list of what individual community members will be contribut
 
 ### Community Member Contributions
 Please let the Steering Committee know about any contributions you would like to make.
+<table>
+    <tr>
+        <td><b>Item</b></td>
+        <td><b>Description</b></td>
+        <td><b>Community Member(s)</b></td>
+    </tr>
+    <tr>
+        <td>Basic recast/detour support in T3D</td>
+        <td><a href="http://www.garagegames.com/community/forums/viewthread/134404">http://www.garagegames.com/community/forums/viewthread/134404</a></td>
+        <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
+    </tr>
+</table>
 
 ### Steering Committee Suggestions
 <table>

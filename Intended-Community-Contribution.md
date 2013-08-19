@@ -37,8 +37,6 @@ Please let the Steering Committee know about any contributions you would like to
     </tr>
 </table>
 
-***
-
    
    
 ### Steering Committee Suggestions

@@ -14,6 +14,10 @@ Please let the Steering Committee know about any contributions you would like to
         <td><a href="http://www.garagegames.com/community/forums/viewthread/134404">http://www.garagegames.com/community/forums/viewthread/134404</a></td>
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
+    <tr>
+        <td>Testing and improvement of the Improved Console Function branch</td>
+        <td><a href="https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor">https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor</a></td>
+        <td><a href="http://www.garagegames.com/account/profile/33917">Demolishun</a></td>
 </table>
    
    

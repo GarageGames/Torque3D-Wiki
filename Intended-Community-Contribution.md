@@ -22,9 +22,6 @@ These tasks have been completed by the community.
 </table>
 
 ![divider](images/IntendedCommunityContribution/divider.png)
-    
-    
-    
 
 ### Community Member Contributions In Progress
 Please let the Steering Committee know about any contributions you would like to make.

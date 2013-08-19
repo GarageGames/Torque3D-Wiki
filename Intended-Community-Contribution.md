@@ -15,6 +15,9 @@ These tasks have been completed by the community.
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
 </table>
+
+***
+
     
     
     
@@ -33,6 +36,9 @@ Please let the Steering Committee know about any contributions you would like to
         <td><a href="http://www.garagegames.com/account/profile/33917">Demolishun</a></td>
     </tr>
 </table>
+
+***
+
    
    
 ### Steering Committee Suggestions

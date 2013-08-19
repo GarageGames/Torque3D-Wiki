@@ -14,6 +14,11 @@ These tasks have been completed by the community.
         <td><a href="http://www.garagegames.com/community/forums/viewthread/134404">http://www.garagegames.com/community/forums/viewthread/134404</a></td>
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
+    <tr>
+        <td>Update to the latest Bullet library version</td>
+        <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start with.  Could look into 3.x integration.</td>
+        <td><a href="http://www.garagegames.com/account/profile/35699">Luis Anton Rebollo</a></td>
+    </tr>
 </table>
 
 ***
@@ -54,11 +59,6 @@ Please let the Steering Committee know about any contributions you would like to
     <tr>
         <td>Compile warnings clean-up</td>
         <td>Turn on compiler warnings and resolve them.  This could be broken up into smaller items.</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Update to the latest Bullet library version</td>
-        <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start with.  Could look into 3.x integration.</td>
         <td></td>
     </tr>
     <tr>

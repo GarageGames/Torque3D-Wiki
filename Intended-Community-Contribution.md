@@ -7,16 +7,19 @@ These tasks have been completed by the community.
     <tr>
         <td><b>Item</b></td>
         <td><b>Description</b></td>
+        <td><b>Pull Request</b></td>
         <td><b>Community Member(s)</b></td>
     </tr>
     <tr>
         <td>Basic recast/detour support in T3D</td>
         <td><a href="http://www.garagegames.com/community/forums/viewthread/134404">http://www.garagegames.com/community/forums/viewthread/134404</a></td>
+        <td><a href="https://github.com/GarageGames/Torque3D/pull/431">PR 431</a>, <a href="https://github.com/GarageGames/Torque3D/pull/432">PR 432</a>, <a href="https://github.com/GarageGames/Torque3D/pull/433">PR 433</a></td>
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
     <tr>
         <td>Update to the latest Bullet library version</td>
         <td>Update the included <a href="http://bulletphysics.org/wordpress/">Bullet library</a> to the latest version.  v2.81 would likely be the best one to start with.  Could look into 3.x integration.</td>
+        <td><a href="https://github.com/GarageGames/Torque3D/pull/434">PR 434</a></td>
         <td><a href="http://www.garagegames.com/account/profile/35699">Luis Anton Rebollo</a></td>
     </tr>
 </table>

@@ -21,7 +21,7 @@ These tasks have been completed by the community.
     </tr>
 </table>
 
-***
+![divider](images/IntendedCommunityContribution/divider.png)
     
     
     

@@ -1,8 +1,8 @@
 Herein we maintain a list of what individual community members will be contributing toward the Torque 3D MIT codebase.
    
    
-### Community Member Contributions
-Please let the Steering Committee know about any contributions you would like to make.
+### Community Member Contributions Completed
+These tasks have been completed by the community.
 <table>
     <tr>
         <td><b>Item</b></td>
@@ -14,10 +14,24 @@ Please let the Steering Committee know about any contributions you would like to
         <td><a href="http://www.garagegames.com/community/forums/viewthread/134404">http://www.garagegames.com/community/forums/viewthread/134404</a></td>
         <td><a href="http://www.garagegames.com/account/profile/79478">Daniel Buckmaster</a></td>
     </tr>
+</table>
+    
+    
+    
+
+### Community Member Contributions In Progress
+Please let the Steering Committee know about any contributions you would like to make.
+<table>
+    <tr>
+        <td><b>Item</b></td>
+        <td><b>Description</b></td>
+        <td><b>Community Member(s)</b></td>
+    </tr>
     <tr>
         <td>Testing and improvement of the Improved Console Function branch</td>
         <td><a href="https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor">https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor</a></td>
         <td><a href="http://www.garagegames.com/account/profile/33917">Demolishun</a></td>
+    </tr>
 </table>
    
    

@@ -35,6 +35,11 @@ Please let the Steering Committee know about any contributions you would like to
         <td><b>Community Member(s)</b></td>
     </tr>
     <tr>
+        <td>Master server updated to T3D</td>
+        <td>The Master Server code was written for TGE and should be updated for T3D and included in the repository. This also requires the proper build files for at least Linux.</td>
+        <td><a href="http://www.garagegames.com/account/profile/70027">smally</a></td>
+    </tr>
+    <tr>
         <td>Testing and improvement of the Improved Console Function branch</td>
         <td><a href="https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor">https://github.com/GarageGames/Torque3D/tree/consolefuncrefactor</a></td>
         <td><a href="http://www.garagegames.com/account/profile/33917">Demolishun</a></td>
@@ -64,11 +69,6 @@ Please let the Steering Committee know about any contributions you would like to
         <td>Update PhysX support to the latest 3.x version</td>
         <td>Update Torque 3D's PhysX support for the latest <a href=https://developer.nvidia.com/physx-downloads">PhysX 3.x</a> version.</td>
         <td></td>
-    </tr>
-    <tr>
-        <td>Master server updated to T3D</td>
-        <td>The Master Server code was written for TGE and should be updated for T3D and included in the repository. This also requires the proper build files for at least Linux.</td>
-        <td><a href="http://www.garagegames.com/account/profile/70027">smally</a></td>
     </tr>
     <tr>
         <td>OSX platform support</td>

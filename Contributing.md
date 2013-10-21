@@ -44,4 +44,4 @@ The [Code Style Guidelines](https://github.com/GarageGames/Torque3D/wiki/Code-St
 The [Intended Community Contribution](https://github.com/GarageGames/Torque3D/wiki/Intended-Community-Contribution) page is to be used help us know what an individual community member is working on with the intent of contributing to the Torque 3D MIT codebase.
 
 ## How To Submit A Pull Request
-The [How To Submit A Pull Request Tutorial](https://github.com/GarageGames/Torque3D/wiki/How-To:--Submit-A-Pull-Request) page is to be used help us know what an individual community member is working on with the intent of contributing to the Torque 3D MIT codebase.
+The [How To Submit A Pull Request Tutorial](https://github.com/GarageGames/Torque3D/wiki/How-To:--Submit-A-Pull-Request) page is designed to give a quick look at the basics of how to properly prepare and submit a Pull Request
